@@ -1,64 +1,33 @@
-Example plain HTML site using GitLab Pages.
+# MHdle - A Monster Hunter™ 'Wordle-like' App
+___
+## What is it ?
+CS Student project driven by our many duo hunts on Wilds. 🐉⚔️
 
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
+Putting our many hours in class to good use.
 
 ---
+## Features
+- Accurate-ish data
+- Multi Platform
+- Different game modes
+  - Guess The Monster
+  - Monster Cry
+  - Guess the Talent
+  - Compendium Knowledge Check
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+Most features as of time of writing this are in progress. `(27/03/2026)`
 
-- [GitLab CI](#gitlab-ci)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
+The data is fine though, no worries.
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+---
+## Credits
+- Data is sourced from many MH wikis from Fandom, Fextralife, and the MHWiki
+- Inspiration from the many like [onepiecedle.net](https://onepiecedle.net/) and [ultrakidle.online](https://ultrakidle.online/)
+- All rights and assets from Monster Hunter, belong to Capcom
 
-## GitLab CI
+---
+## Disclaimer
 
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
-
-```
-image: busybox
-
-pages:
-  stage: deploy
-  script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-    expire_in: 1 day
-  rules:
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
-```
-
-The above example expects to put all your HTML files in the `public/` directory.
-
-## GitLab User or Group Pages
-
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
-
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
-
-## Did you fork this project?
-
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
-
-## Troubleshooting
-
-1. CSS is missing! That means that you have wrongly set up the CSS URL in your
-   HTML files. Have a look at the [index.html] for an example.
-
-[ci]: https://about.gitlab.com/gitlab-ci/
-[index.html]: https://gitlab.com/pages/plain-html/blob/master/public/index.html
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+This project is a non-commercial, fan-made tribute.
+All Monster Hunter assets, names, and related concepts are the intellectual property of Capcom Co., Ltd.
+This project is not affiliated with or endorsed by Capcom.
