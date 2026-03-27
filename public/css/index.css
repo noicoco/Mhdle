@@ -1,0 +1,71 @@
+#boulon {
+    width: 100px;
+}
+
+#drapeau {
+    width: 85px;
+}
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.containerFlex {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.containerFlex > div {
+    transform: translateY(250%);
+}
+
+a > div.container > img {
+    position: relative;
+    top: 20px;
+}
+
+#jeuMonstre {
+    background: peachpuff;
+    height: 150px;
+}
+
+#jeuArmes {
+    background: brown;
+    height: 150px;
+}
+
+#jeuTalents {
+    background: grey;
+    height: 150px;
+}
+
+#jeuCris {
+    background: yellowgreen;
+    height: 150px;
+}
+
+#jeuCompendium {
+    background: lightpink;
+    height: 150px;
+}
+
+.jeux {
+}
+
+.logoCaravane {
+    width: 120px;
+    position: relative;
+    top : -24%;
+    height: 150px;
+    z-index: -1;
+}
+
+.liens {
+    margin-top: 10px;
+    height: 150px;
+    width:95%;
+}
+.texte{
+}

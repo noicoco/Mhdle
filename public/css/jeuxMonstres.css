@@ -1,0 +1,21 @@
+#affichagePrincipal{
+    width: 360px;
+    height: 130px;
+    background: white;
+    text-align: center;
+    transform:translateY(150%);
+    display: block;
+}
+
+.containerGrid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+#bigTableau{
+    background: salmon;
+}
+
+table{
+    background: red;
+    border:solid black;
+}
