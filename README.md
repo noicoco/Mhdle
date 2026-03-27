@@ -1,11 +1,11 @@
 # MHdle - A Monster Hunter™ 'Wordle-like' App
-___
+
 ## What is it ?
 CS Student project driven by our many duo hunts on Wilds. 🐉⚔️
 
 Putting our many hours in class to good use.
 
----
+
 ## Features
 - Accurate-ish data
 - Multi Platform
@@ -19,13 +19,13 @@ Most features as of time of writing this are in progress. `(27/03/2026)`
 
 The data is fine though, no worries.
 
----
+
 ## Credits
 - Data is sourced from many MH wikis from Fandom, Fextralife, and the MHWiki
 - Inspiration from the many like [onepiecedle.net](https://onepiecedle.net/) and [ultrakidle.online](https://ultrakidle.online/)
 - All rights and assets from Monster Hunter, belong to Capcom
 
----
+
 ## Disclaimer
 
 This project is a non-commercial, fan-made tribute.
