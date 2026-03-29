@@ -17,3 +17,19 @@
     font-family: "SourceSerif4";
     src: url("/../../assets/fonts/SourceSerif4-VF.woff2") format("woff2")
 }
+
+body {
+    font-family: "SourceHanSans";
+}
+
+h1 {
+    font-family: "Markazi Text";
+}
+
+h2 {
+    font-family: "SourceSerif4";
+}
+
+p {
+    font-family: "SourceHanSans";
+}

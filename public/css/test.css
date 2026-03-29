@@ -1,0 +1,99 @@
+/* -- Color Palette -- */
+:root {
+    --bg-color: #1A1C1E;
+    --text-primary: #F0EAD6;
+
+    --color-correct: #49d72f;
+    --color-present: #CF992D;
+    --color-absent: #322F2B;
+
+    --border-metal: #8E867A;
+    --focus-glow: #FF8C00;
+}
+/* ------------------- */
+
+
+
+
+/* -- Main Structure -- */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* --------------------- */
+
+
+
+
+/* -- DIV components -- */
+.background {
+    position: absolute;
+    top: 0;
+    background-image: url("../../assets/images/bg.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    z-index: -999;
+    filter: blur(7px) saturate(140%);
+    opacity: 25%;
+}
+
+.underlinebar {
+    height: 2px;
+    width: auto;
+    background-color: var(--text-primary);
+    border-radius: 10px;
+    margin-top: -15px;
+    margin-bottom: 0;
+}
+/* ------------------------------- */
+
+
+
+
+/* -- Span Potion Icon -- */
+.icon {
+    display: inline-flex;
+    width:  40px;
+    height: 40px;
+    background-image: url("../../assets/images/potion.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* ---------------------- */
+
+
+
+
+/* -- Position Helpers -- */
+.left {
+    margin-right: 20px;
+
+}
+.right {
+    margin-left: 20px;
+}
+/* ---------------------- */
+
+
+
+
+/* -- Main Header Title -- */
+header h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+/* ----------------------- */

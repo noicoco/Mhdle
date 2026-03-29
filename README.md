@@ -1,4 +1,4 @@
-# MHdle - A Monster Hunter™ 'Wordle-like' App
+# MHdle - A Monster Hunter™ 'Wordle-like' WebApp
 
 ## What is it ?
 CS Student project driven by our many duo hunts on Wilds. 🐉⚔️
