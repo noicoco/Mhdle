@@ -5,7 +5,6 @@ CS Student project driven by our many duo hunts on Wilds. 🐉⚔️
 
 Putting our many hours in class to good use.
 
-
 ## Features
 - Accurate-ish data
 - Multi Platform
@@ -19,11 +18,16 @@ Most features as of time of writing this are in progress. `(27/03/2026)`
 
 The data is fine though, no worries.
 
+## Goals
+Currently, the project only features MH Wilds' monsters and general data
+
+Our goal is to make it span across the entire Monster Hunter saga.
 
 ## Credits
 - Data is sourced from many MH wikis from Fandom, Fextralife, and the MHWiki
-- Inspiration from the many like [onepiecedle.net](https://onepiecedle.net/) and [ultrakidle.online](https://ultrakidle.online/)
+- Inspiration from the many like [onepiecedle.net](https://onepiecedle.net/) and [ultrakidle.online](https://ultrakidle.online/) `(Check them out!)`
 - All rights and assets from Monster Hunter, belong to Capcom
+- Fonts from Google and Adobe Fonts
 
 
 ## Disclaimer
