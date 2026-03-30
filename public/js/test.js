@@ -1,11 +1,17 @@
 {
-const max = 4; // Numbers from 0 to 4 possible
-const randomInt = Math.floor(Math.random() * 5) + 1;
+    const max = 4; // Numbers from 0 to 4 possible
+    const randomInt = Math.floor(Math.random() * 5) + 1;
 
-let background = document.getElementById("background");
-background.style.backgroundImage = `url("../assets/images/bg${randomInt}.jpg")`;
+    let background = document.getElementById("background");
+    background.style.backgroundImage = `url("../assets/images/bg${randomInt}.jpg")`;
 }
 
-function paramPanel(){
-    //TODO : display the pannel of parameters
+function toggleParamPanel() {
+    let paramPanelId = document.getElementById("paramPanel");
+    let clicked = paramPanelId.click;
+    if (paramPanelId.style.display === "none" && clicked) {
+        paramPanelId.style.display = "flex";
+    } else {
+        paramPanelId.style.display = "none";
+    }
 }

@@ -68,13 +68,24 @@ body {
 
 
 /* -- Span parameters Icon -- */
-.param {
+#param {
     display: inline-flex;
     width:  40px;
     height: 40px;
     background-image: url("../../assets/images/parameterIcon.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+/* ---------------------- */
+
+/* -- Span parameters Panel -- */
+#paramPanel {
+    display: none;
+    width:  150px;
+    height: 150px;
+    align-items: center;
+    z-index: 2;
+    background: white;
 }
 /* ---------------------- */
 
