@@ -29,10 +29,10 @@ body {
 
 
 /* -- DIV components -- */
-.background {
+#background {
     position: absolute;
     top: 0;
-    background-image: url("../../assets/images/bg.jpg");
+    background-image: url("../../assets/images/bg1.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -67,7 +67,27 @@ body {
 /* ---------------------- */
 
 
+/* -- Span parameters Icon -- */
+.param {
+    display: inline-flex;
+    width:  40px;
+    height: 40px;
+    background-image: url("../../assets/images/parameterIcon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* ---------------------- */
 
+/* -- Span language Icon -- */
+.lang {
+    display: inline-flex;
+    width:  40px;
+    height: 40px;
+    background-image: url("../../assets/images/englishFlag.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* ---------------------- */
 
 /* -- Position Helpers -- */
 .left {
