@@ -18,9 +18,8 @@
     --button-ruins: #1F1417;
     --button-hollow: #6D675C;
 }
+
 /* ------------------- */
-
-
 
 
 /* -- Main Structure -- */
@@ -31,9 +30,8 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 /* --------------------- */
-
-
 
 
 /* -- DIV components -- */
@@ -58,20 +56,20 @@ body {
     margin-top: -15px;
     margin-bottom: 0;
 }
+
 /* ------------------------------- */
-
-
 
 
 /* -- Span Potion Icon -- */
 .icon {
     display: inline-flex;
-    width:  40px;
+    width: 40px;
     height: 40px;
     background-image: url("../../assets/images/potion.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 /* ---------------------- */
 
 
@@ -80,34 +78,41 @@ body {
     position: absolute;
     left: 0;
     margin-left: 10px;
-    width:  40px;
+    width: 40px;
     height: 40px;
     background-image: url("../../assets/images/parameterIcon.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 /* ---------------------- */
 
 /* -- Span parameters Panel -- */
 #paramPanel {
     display: none;
-    width:  150px;
+    width: 150px;
     height: 150px;
     align-items: center;
     z-index: 2;
     background: white;
+    box-shadow: 5px 5px #666;
 }
+
 /* ---------------------- */
 
 /* -- Span language Icon -- */
-.lang {
-    display: inline-flex;
-    width:  40px;
+#lang {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    margin-right: 10px;
+    width: 40px;
     height: 40px;
     background-image: url("../../assets/images/englishFlag.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 /* ---------------------- */
 
 /* -- Position Helpers -- */
@@ -115,12 +120,12 @@ body {
     margin-right: 20px;
 
 }
+
 .right {
     margin-left: 20px;
 }
+
 /* ---------------------- */
-
-
 
 
 /* -- Main Header Title -- */
@@ -137,4 +142,75 @@ header h2 {
     font-weight: 400;
     margin: 0;
 }
+
 /* ----------------------- */
+
+/* -- Footer Manager -- */
+#footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 40px;
+    left: 0;
+}
+
+/* ----------------------- */
+
+/* -- Span github Icon -- */
+#githubLogo {
+    display: inline-flex;
+    position: absolute;
+    bottom: 15px;
+    left: 48%;
+    width: 40px;
+    height: 40px;
+    background-image: url("../../assets/images/githubLogo.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------- */
+
+/* -- Span Buttons -- */
+.button{
+    width: 40px;
+    height: 40px;
+    background: red;
+    margin-bottom: 10px;
+    list-style: none;
+    position: relative;
+    bottom : -200%;
+}
+
+/* ---------------------- */
+
+/* -- Buttons Animations -- */
+.button:hover {
+    transform: scale(1.2);
+}
+
+/* ---------------------- */
+
+/* -- Buttons Colors -- */
+
+#monsterTablePage {
+    background-color: var(--button-plains);
+}
+
+#WeaponTablePage{
+    background-color: var(--button-forest);
+}
+
+#CompendiumPage{
+    background-color: var(--button-basin);
+}
+
+#roarPage{
+    background-color: var(--button-ruins);
+}
+
+#talentsPage{
+    background-color: var(--button-hollow);
+}
+
+/* ---------------------- */
