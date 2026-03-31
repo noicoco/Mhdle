@@ -9,6 +9,14 @@
 
     --border-metal: #8E867A;
     --focus-glow: #FF8C00;
+
+    /*  Buttons colors  */
+    --button-plains: #3E2E06;
+    --button-forest: #302E09;
+    --button-basin: #401208;
+    --button-cliffs: #29342F;
+    --button-ruins: #1F1417;
+    --button-hollow: #6D675C;
 }
 /* ------------------- */
 
@@ -69,7 +77,9 @@ body {
 
 /* -- Span parameters Icon -- */
 #param {
-    display: inline-flex;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
     width:  40px;
     height: 40px;
     background-image: url("../../assets/images/parameterIcon.png");
