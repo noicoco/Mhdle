@@ -1,5 +1,5 @@
-/* -- Color Palette -- */
 :root {
+    /* -- Color Palette -- */
     --bg-color: #1A1C1E;
     --text-primary: #F0EAD6;
 
@@ -26,7 +26,6 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-primary);
-    font-family: SourceHanSans;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +34,6 @@ body {
 a {
     text-decoration: none;
 }
-
 /* --------------------- */
 
 
@@ -108,7 +106,7 @@ a {
 /* -- Span language Icon -- */
 #lang {
     position: absolute;
-    top: 19px;
+    top: 10px;
     right: 0;
     margin-right: 10px;
     width: 40px;
@@ -150,9 +148,22 @@ header h2 {
 
 /* ----------------------- */
 
-/* -- Footer Manager -- */
+/* -- Footer -- */
 #footer {
     margin-bottom: 20px;
+    display: inline-block;
+}
+
+#footer a {
+    display: inherit;
+    height: 40px;
+}
+
+.githubLogo {
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+    transition: transform ease-in-out 0.10s;
 }
 
 /* ----------------------- */
@@ -164,8 +175,9 @@ header h2 {
     list-style: none;
     padding: 10px;
 }
-
 /* ------------------- */
+
+
 
 /* -- Buttons -- */
 .button {
@@ -173,43 +185,45 @@ header h2 {
     height: 50px;
     list-style: none;
     margin: 20px;
-    transition: transform ease-in-out 0.10s;
+    transition: transform ease-in-out 0.15s;
     color: var(--text-primary);
+    font-weight: bold;
+    font-family: SourceHanSerif;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: left;
+    font-size: 30px;
+    text-indent: 65px;
+    border-radius: 15px;
 }
-/* -- Buttons Animations -- */
+/* -- Animations -- */
 .button:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
-
-/* ---------------------- */
-
-#githubLogo {
-    width: 40px;
-    height: 40px;
-}
-
-
-
-
-/* -- Buttons Colors -- */
+/* -- Colors -- */
 
 #monsterPage {
+    background-image: url("../../assets/images/region/01_windward_plains.png");
     background-color: var(--button-plains);
 }
 
 #weaponPage{
+    background-image: url("../../assets/images/region/02_scarlet_forest.png");
     background-color: var(--button-forest);
 }
 
 #compendiumPage{
+    background-image: url("../../assets/images/region/03_oilwell_basin.png");
     background-color: var(--button-basin);
 }
 
 #roarPage{
+    background-image: url("../../assets/images/region/05_ruins_of_wyveria.png");
     background-color: var(--button-ruins);
 }
 
 #talentPage{
+    background-image: url("../../assets/images/region/06_wounded_hollow.png");
     background-color: var(--button-hollow);
 }
 
