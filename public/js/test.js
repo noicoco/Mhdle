@@ -17,13 +17,24 @@ function toggleParamPanel() {
 }
 
 {
-    const monsterPage = document.getElementById("monsterTablePage");
-    const weaponPage = document.getElementById("monsterTablePage");
-    const compendiumPage = document.getElementById("monsterTablePage");
-    const roarPage = document.getElementById("monsterTablePage");
-    const talentPage = document.getElementById("monsterTablePage");
+    const monsterPage = document.getElementById("monsterPage");
+    const weaponPage = document.getElementById("weaponPage");
+    const compendiumPage = document.getElementById("compendiumPage");
+    const roarPage = document.getElementById("roarPage");
+    const talentPage = document.getElementById("talentPage");
 
     const pageButtons = [monsterPage, weaponPage, compendiumPage, roarPage, talentPage]
+    
+    const background = document.getElementById("background");
 
+    for (let pageButton in pageButtons) {
+        let button = pageButtons[pageButton]
+        console.log(pageButton);
+        console.log(pageButtons);
+        console.log(button);
+        button.addEventListener("mouseenter", () => {
+            background.style.backgroundImage = `url("../assets/images/bg/bg${Number(pageButton)+1}.jpg")`;
+        })
+    }
 
 }

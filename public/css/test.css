@@ -79,10 +79,10 @@ a {
 /* -- Span parameters Icon -- */
 #param {
     position: absolute;
-    left: 0;
-    margin-left: 10px;
-    width: 40px;
-    height: 40px;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
     background-image: url("../../assets/images/icon/parameterIcon.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -173,7 +173,9 @@ header h2 {
 /* -- buttonList ul -- */
 #buttonList {
     list-style: none;
-    padding: 10px;
+    padding: 0;
+    margin: 100px;
+
 }
 /* ------------------- */
 
@@ -181,7 +183,7 @@ header h2 {
 
 /* -- Buttons -- */
 .button {
-    width: 290px;
+    width: 300px;
     height: 50px;
     list-style: none;
     margin: 20px;
@@ -193,8 +195,10 @@ header h2 {
     background-repeat: no-repeat;
     text-align: left;
     font-size: 30px;
-    text-indent: 65px;
+    text-indent: 70px;
     border-radius: 15px;
+    box-shadow: #000000 0px 5px 0px;
+    padding: 10px;
 }
 /* -- Animations -- */
 .button:hover {
@@ -218,13 +222,13 @@ header h2 {
 }
 
 #roarPage{
-    background-image: url("../../assets/images/region/05_ruins_of_wyveria.png");
-    background-color: var(--button-ruins);
+    background-image: url("../../assets/images/region/04_iceshard_cliffs.png");
+    background-color: var(--button-cliffs);
 }
 
 #talentPage{
-    background-image: url("../../assets/images/region/06_wounded_hollow.png");
-    background-color: var(--button-hollow);
+    background-image: url("../../assets/images/region/05_ruins_of_wyveria.png");
+    background-color: var(--button-ruins);
 }
 
 /* ---------------------- */
