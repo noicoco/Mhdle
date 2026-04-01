@@ -26,9 +26,14 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-primary);
+    font-family: SourceHanSans;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* --------------------- */
@@ -38,7 +43,7 @@ body {
 #background {
     position: absolute;
     top: 0;
-    background-image: url("../../assets/images/bg1.jpg");
+    background-image: url("../../assets/images/bg/bg1.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -65,7 +70,7 @@ body {
     display: inline-flex;
     width: 40px;
     height: 40px;
-    background-image: url("../../assets/images/potion.png");
+    background-image: url("../../assets/images/icon/potion.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -80,7 +85,7 @@ body {
     margin-left: 10px;
     width: 40px;
     height: 40px;
-    background-image: url("../../assets/images/parameterIcon.png");
+    background-image: url("../../assets/images/icon/parameterIcon.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -108,7 +113,7 @@ body {
     margin-right: 10px;
     width: 40px;
     height: 40px;
-    background-image: url("../../assets/images/englishFlag.png");
+    background-image: url("../../assets/images/flag/englishFlag.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -147,43 +152,30 @@ header h2 {
 
 /* -- Footer Manager -- */
 #footer {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    height: 40px;
-    left: 0;
+    margin-bottom: 20px;
 }
 
 /* ----------------------- */
 
-/* -- Span github Icon -- */
-#githubLogo {
-    display: inline-flex;
-    position: absolute;
-    bottom: 15px;
-    left: 48%;
-    width: 40px;
-    height: 40px;
-    background-image: url("../../assets/images/githubLogo.webp");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
-/* ---------------------- */
 
-/* -- Span Buttons -- */
-.button{
-    width: 40px;
-    height: 40px;
-    background: red;
-    margin-bottom: 10px;
+/* -- buttonList ul -- */
+#buttonList {
     list-style: none;
-    position: relative;
-    bottom : -200%;
+    padding: 10px;
 }
 
-/* ---------------------- */
+/* ------------------- */
 
+/* -- Buttons -- */
+.button {
+    width: 290px;
+    height: 50px;
+    list-style: none;
+    margin: 20px;
+    transition: transform ease-in-out 0.10s;
+    color: var(--text-primary);
+}
 /* -- Buttons Animations -- */
 .button:hover {
     transform: scale(1.2);
@@ -191,17 +183,25 @@ header h2 {
 
 /* ---------------------- */
 
+#githubLogo {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
 /* -- Buttons Colors -- */
 
-#monsterTablePage {
+#monsterPage {
     background-color: var(--button-plains);
 }
 
-#WeaponTablePage{
+#weaponPage{
     background-color: var(--button-forest);
 }
 
-#CompendiumPage{
+#compendiumPage{
     background-color: var(--button-basin);
 }
 
@@ -209,7 +209,7 @@ header h2 {
     background-color: var(--button-ruins);
 }
 
-#talentsPage{
+#talentPage{
     background-color: var(--button-hollow);
 }
 

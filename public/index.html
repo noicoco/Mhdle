@@ -10,8 +10,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="icon" type="image/x-icon" href="../assets/images/potion.ico">
+    <link rel="icon" type="image/x-icon" href="../assets/images/icon/potion.ico">
     <link rel="stylesheet" href="css/fonts.css">
+
     <link rel="stylesheet" href="css/test.css">
 </head>
 <body>
@@ -22,7 +23,7 @@
     <!-- Header Start-->
     <header>
         <span class="left" id="param" onclick="toggleParamPanel()"></span>
-        
+
         <h1 id="h1Header">
             <span class="icon left"></span>
             MHdle
@@ -46,17 +47,18 @@
         </div>
         <div class="container">
             <!-- TODO: embelish the buttons -->
-            <ul>
+            <!-- FIXME: HTML is invalid, UL can only accept LI as child, not A HREF-->
+            <ul id="buttonList">
                 <a href="pages/monsterPage.html" >
-                    <li  class="button" id="monsterTablePage"></li>
+                    <li  class="button" id="monsterPage">aaaaaaaaaaa</li>
                 </a>
 
                 <a href="pages/weaponPage.html">
-                    <li  class="button" id="WeaponTablePage"></li>
+                    <li  class="button" id="weaponPage"></li>
                 </a>
 
                 <a href="pages/compendiumPage.html">
-                    <li  class="button" id="CompendiumPage"></li>
+                    <li  class="button" id="compendiumPage"></li>
                 </a>
 
                 <a href="pages/roarPage.html">
@@ -64,7 +66,7 @@
                 </a>
 
                 <a href="pages/talentsPage.html">
-                    <li  class="button" id="talentsPage"></li>
+                    <li  class="button" id="talentPage"></li>
                 </a>
 
             </ul>
@@ -75,9 +77,11 @@
     <footer>
     <!-- TODO: Footnote with necessary and copyright and links to Github, Socials etc-->
         <div id="footer">
-            <a id="githubLogo" href="https://github.com/noicoco/Mhdle" target="_blank">
+            <a  href="https://github.com/noicoco/Mhdle" target="_blank">
+                <img id="githubLogo" src="../../assets/images/icon/github.png" alt="GitHub">
             </a>
         </div>
+        <div class="underlinebar"></div>
     </footer>
 
     <script src="js/test.js">
