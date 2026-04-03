@@ -3,7 +3,7 @@
 ## What is it ?
 CS Student project driven by our many duo hunts on Wilds. 🐉⚔️
 
-Putting our many hours in class to good use.
+Putting our many hours in class to good use. Using Vue.js
 
 ## Features
 - Accurate-ish data
@@ -30,8 +30,16 @@ Our goal is to make it span across the entire Monster Hunter saga.
 - Fonts from Google and Adobe Fonts
 
 
-## Disclaimer
+## Contributors
+- [EndOfLine-py](https://github.com/EndOfLine-py)
+- [Noicoco](https://github.com/noicoco)
 
+
+## License
+TBD
+
+
+## Disclaimer
 This project is a non-commercial, fan-made tribute.
 All Monster Hunter assets, names, and related concepts are the intellectual property of Capcom Co., Ltd.
 This project is not affiliated with or endorsed by Capcom.
