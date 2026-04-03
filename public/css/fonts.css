@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Markazi Text";
-    src: url("/../../assets/fonts/MarkaziText-VariableFont.woff2") format("woff2")
+    src: url("/assets/fonts/MarkaziText-VariableFont.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "SourceHanSans";
-    src: url("/../../assets/fonts/SourceHanSansJP-VF.otf.woff2") format("woff2")
+    src: url("/assets/fonts/SourceHanSansJP-VF.otf.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "SourceHanSerif";
-    src: url("/../../assets/fonts/SourceHanSerifJP-VF.otf.woff2") format("woff2")
+    src: url("/assets/fonts/SourceHanSerifJP-VF.otf.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "SourceSerif4";
-    src: url("/../../assets/fonts/SourceSerif4-VF.woff2") format("woff2")
+    src: url("/assets/fonts/SourceSerif4-VF.woff2") format("woff2")
 }
 
 body {
