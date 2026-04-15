@@ -1,5 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+
+// FIXME: Possible issues with spacing with the header and main content, we'll see
 </script>
 
 <template>
@@ -15,8 +17,6 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-
-// FIXME: Possible issues with spacing with the header and main content, we'll see
 header {
   top: 0;
   z-index: 100;
