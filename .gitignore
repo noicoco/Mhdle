@@ -31,3 +31,5 @@ Desktop.ini
 dist/
 build/
 out/
+
+.parcel-cache/
