@@ -16,6 +16,15 @@
   --button-cliffs: #29342F;
   --button-ruins: #1F1417;
   --button-hollow: #6D675C;
+
+  --bg-id-1: var(--button-plains);
+  --bg-id-2: var(--button-forest);
+  --bg-id-3: var(--button-basin);
+  --bg-id-4: var(--button-cliffs);
+  --bg-id-5: var(--button-ruins);
+  --bg-id-6: var(--button-hollow);
+
+  --border-radius: 15px;
 }
 
 

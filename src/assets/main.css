@@ -1,16 +1,6 @@
 @import './base.css';
 @import './fonts.css';
 
-:root {
-  --id-1: var(--button-plains);
-  --id-2: var(--button-forest);
-  --id-3: var(--button-basin);
-  --id-4: var(--button-cliffs);
-  --id-5: var(--button-ruins);
-  --id-6: var(--button-hollow);
-}
-
-
 #app {
   min-height: 100vh;
   display: flex;
