@@ -8,7 +8,7 @@ const props = defineProps({name: String, id: String});
 
 <template>
   <RouterLink :to="`/${name}`" class="button" :style="{ backgroundColor: `var(--bg-id-${props.id})`, backgroundImage: `url(/src/assets/images/region/${props.id}.png)`}">
-      {{ props.name.toUpperCase() }}
+      {{ props.name }}
   </RouterLink>
 </template>
 
@@ -33,6 +33,11 @@ const props = defineProps({name: String, id: String});
   font-size: 40px;
   font-family: Markazi Text;
   text-shadow: 0 1px 1px var(--color-background);
+
+  text-transform: capitalize;
+
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .button:hover {

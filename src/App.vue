@@ -1,18 +1,22 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import {RouterLink, RouterView} from 'vue-router'
 
 // FIXME: Possible issues with spacing with the header and main content, we'll see
 </script>
 
 <template>
   <header>
-    <RouterLink to="/" id="title">MHdle</RouterLink>
+      <nav>
+    <RouterLink to="/" id="title" draggable="false">
+      MHdle
+    </RouterLink>
+      </nav>
   </header>
 
   <div id="background"></div>
 
   <main>
-    <RouterView />
+    <RouterView/>
   </main>
 </template>
 
@@ -24,7 +28,7 @@ header {
 }
 
 nav {
-  max-width: 1280px;
+  max-width: max-content;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -53,10 +57,13 @@ nav {
 
   font-family: Markazi Text;
   text-shadow: 0 2px 2px var(--color-background);
+  user-select: none;
 }
+
 #title:hover {
   opacity: 1;
   color: var(--color-text);
   background: none;
+  transform: scale(1.02);
 }
 </style>
