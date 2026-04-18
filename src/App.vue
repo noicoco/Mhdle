@@ -39,12 +39,14 @@ nav {
   filter: blur(7px);
   opacity: 75%;
   background-color: var(--color-background);
-  background-image: url("./assets/images/bg/bg1.jpg");
+  background-image: url("../assets/images/bg/bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
   z-index: -10;
+  overflow: hidden;
+  transform: scale(1.1);
 }
 
 #title {

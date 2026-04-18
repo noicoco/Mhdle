@@ -7,7 +7,7 @@ const props = defineProps({name: String, id: String});
 </script>
 
 <template>
-  <RouterLink :to="`/${name}`" class="button" :style="{ backgroundColor: `var(--bg-id-${props.id})`, backgroundImage: `url(/src/assets/images/region/${props.id}.png)`}">
+  <RouterLink :to="`/${name}`" class="button" :style="{ backgroundColor: `var(--bg-id-${props.id})`, backgroundImage: `url(/assets/images/region/${props.id}.png)`}">
       {{ props.name }}
   </RouterLink>
 </template>

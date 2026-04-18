@@ -1,25 +1,43 @@
 <script setup>
-import blocki from "@/components/bloc.vue";
-import routeB from "@/components/routeButton.vue";
+import blocki from "@/views/components/bloc.vue";
+import wordleTable from "@/views/components/wordleTable.vue";
+import monsterSelect from "@/views/components/monsterSelect.vue";
+
 import {ref} from "vue";
 
-const bgi = ref('bg')
+// const bgi = ref('bg')
 </script>
 
 <template>
-  <div>
+  <div id="title">
     <h1>Monster</h1>
   </div>
 
-  <div :id="bgi">
-    <blocki></blocki>
+  <div class="container bg">
+
   </div>
+
 </template>
 
 <style scoped>
-#bg{
-  background: #252525;
-  width: 100px;
-  height: 100px;
+.bg {
+  background: var(--color-background);
+  width: 100%;
+  padding: 15px;
+  border-radius: var(--border-radius);
+  border: 2px solid var(--border-metal);
+}
+
+#title {
+  font-size: 1.3em;
+  color: var(--color-text);
+  font-weight: bolder;
+  text-align: center;
+
+  font-family: Markazi Text;
+  text-shadow: 0 1px 1px var(--color-background);
+  user-select: none;
+  padding: 0;
+  margin: 0;
 }
 </style>
