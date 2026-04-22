@@ -14,7 +14,7 @@ import {ref} from "vue";
   </div>
 
   <div class="container bg">
-
+    <monster-select>a</monster-select>
   </div>
 
 </template>
