@@ -1,5 +1,29 @@
 <script setup>
 import {RouterLink, RouterView} from 'vue-router'
+import {provide, ref} from 'vue';
+
+import monsterData from '../assets/data/monster_data.json';
+
+function getTodayMonster() {
+  let date = new Date();
+  let year = date.getFullYear();
+  let month = date.getMonth() + 1;
+  let day = date.getUTCDate();
+
+  let math = (year+ month + day) % monsterData.length;
+
+  console.log(math);
+
+  let monster = monsterData[math];
+
+  return monster;
+}
+
+
+provide('monsterData', monsterData);
+provide('selectedMonster', getTodayMonster())
+
+const monster = ref(getTodayMonster())
 
 // FIXME: Possible issues with spacing with the header and main content, we'll see
 </script>
@@ -14,6 +38,8 @@ import {RouterLink, RouterView} from 'vue-router'
   </header>
 
   <div id="background"></div>
+
+  <span class="debug">Current Monster: {{monster.name}}</span>
 
   <main>
     <RouterView/>
@@ -67,5 +93,17 @@ nav {
   color: var(--color-text);
   background: none;
   transform: scale(1.02);
+}
+
+.debug {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  padding: 5px;
+  /* Correct modern syntax */
+  /* Works even if --color-background is #ffffff or blue */
+  background-color: rgb(from var(--color-background) r g b / 0.5);
+  border-radius: 10px;
 }
 </style>

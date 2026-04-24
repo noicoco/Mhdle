@@ -1,11 +1,24 @@
 <script setup>
 import blocki from "@/views/components/bloc.vue";
 import wordleTable from "@/views/components/wordleTable.vue";
-import monsterSelect from "@/views/components/monsterSelect.vue";
+import SearchBox from "@/views/components/searchBox.vue";
 
-import {ref} from "vue";
+import {inject, ref} from "vue";
 
 // const bgi = ref('bg')
+
+const monsterData = inject("monsterData");
+const selectedMonster = inject("selectedMonster");
+
+function selectionHandler(selection) {
+  if (selection === selectedMonster) {
+    alert("yay!");
+  }
+  else {
+    alert("aw");
+  }
+}
+
 </script>
 
 <template>
@@ -14,7 +27,7 @@ import {ref} from "vue";
   </div>
 
   <div class="container bg">
-    <monster-select>a</monster-select>
+    <search-box :data="monsterData" :category="'monster'" @selected="selectionHandler"></search-box>
   </div>
 
 </template>
