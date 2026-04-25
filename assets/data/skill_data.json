@@ -1,1703 +1,1703 @@
 [
   {
+    "icon": "resistance",
     "name": "Convert Water Resistance",
     "type": "Weapon Skill",
     "description": "Increases your weapon's elemental attack proportional to your water resistance.",
-    "levels": 1,
-    "iconName": "resistance"
+    "levels": 1
   },
   {
+    "icon": "attack",
     "name": "Attack Boost",
     "type": "Weapon Skill",
     "description": "Increases attack power.",
-    "levels": 5,
-    "iconName": "attack"
+    "levels": 5
   },
   {
+    "icon": "attack",
     "name": "Resentment",
     "type": "Armor Skill",
     "description": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
-    "levels": 5,
-    "iconName": "attack"
+    "levels": 5
   },
   {
+    "icon": "stamina",
     "name": "Adrenaline Rush",
     "type": "Armor Skill",
     "description": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
-    "levels": 5,
-    "iconName": "stamina"
+    "levels": 5
   },
   {
+    "icon": "offensive",
     "name": "Offensive Guard",
     "type": "Weapon Skill",
     "description": "Temporarily increases attack power after executing a perfectly-timed guard.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Shattering Reflection",
     "type": "Weapon Skill",
     "description": "Level 3 charged slashes deal area-of-effect damage upon hitting the ground.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "attack",
     "name": "Peak Performance",
     "type": "Armor Skill",
     "description": "Increases attack when your health is full.",
-    "levels": 5,
-    "iconName": "attack"
+    "levels": 5
   },
   {
+    "icon": "attack",
     "name": "Counterstrike",
     "type": "Armor Skill",
     "description": "Temporarily increases attack power after being knocked back.",
-    "levels": 3,
-    "iconName": "attack"
+    "levels": 3
   },
   {
+    "icon": "crit",
     "name": "Critical Boost",
     "type": "Weapon Skill",
     "description": "Increases the damage of critical hits.",
-    "levels": 5,
-    "iconName": "crit"
+    "levels": 5
   },
   {
+    "icon": "crit",
     "name": "Critical Eye",
     "type": "Weapon Skill",
     "description": "Increases affinity.",
-    "levels": 5,
-    "iconName": "crit"
+    "levels": 5
   },
   {
+    "icon": "crit",
     "name": "Critical Draw",
     "type": "Weapon Skill",
     "description": "Increases affinity when performing draw attacks. (Not effective while riding.)",
-    "levels": 3,
-    "iconName": "crit"
+    "levels": 3
   },
   {
+    "icon": "crit",
     "name": "Weakness Exploit",
     "type": "Armor Skill",
     "description": "Increases the affinity of attacks that exploit a monster's weak points and wounds.",
-    "levels": 5,
-    "iconName": "crit"
+    "levels": 5
   },
   {
+    "icon": "crit",
     "name": "Maximum Might",
     "type": "Armor Skill",
     "description": "Increases affinity if stamina is kept full for a period of time.",
-    "levels": 3,
-    "iconName": "crit"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Fire Attack",
     "type": "Decoration Skill",
     "description": "Increases fire element attack power. (Elemental attack power has a maximum limit.)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Water Attack",
     "type": "Decoration Skill",
     "description": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Thunder Attack",
     "type": "Decoration Skill",
     "description": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Ice Attack",
     "type": "Decoration Skill",
     "description": "Increases ice element attack power. (Elemental attack power has a maximum limit.)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Dragon Attack",
     "type": "Decoration Skill",
     "description": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Poison Attack",
     "type": "Decoration Skill",
     "description": "Increases the rate of poison buildup. (Poison buildup has a maximum limit.)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Paralysis Attack",
     "type": "Decoration Skill",
     "description": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Sleep Attack",
     "type": "Decoration Skill",
     "description": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Blast Attack",
     "type": "Decoration Skill",
     "description": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Critical Element",
     "type": "Weapon Skill",
     "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Critical Status",
     "type": "Weapon Skill",
     "description": "Increases abnormal status effects (paralysis, poison, sleep, blast) when landing critical hits.",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Charge Master",
     "type": "Weapon Skill",
     "description": "Increases element power and status buildup for charged attacks.",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Convert Element",
     "type": "Armor Skill",
     "description": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "sharpness",
     "name": "Handicraft",
     "type": "Decoration Skill",
     "description": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
-    "levels": 5,
-    "iconName": "sharpness"
+    "levels": 5
   },
   {
+    "icon": "sharpness",
     "name": "Razor Sharp",
     "type": "Decoration Skill",
     "description": "Prevents your weapon from losing sharpness.",
-    "levels": 3,
-    "iconName": "sharpness"
+    "levels": 3
   },
   {
+    "icon": "sharpness",
     "name": "Protective Polish",
     "type": "Weapon Skill",
     "description": "Weapon sharpness does not decrease for a set time after sharpening.",
-    "levels": 3,
-    "iconName": "sharpness"
+    "levels": 3
   },
   {
+    "icon": "sharpness",
     "name": "Mind's Eye",
     "type": "Decoration Skill",
     "description": "Your attacks are deflected less and deal more damage to hard targets.",
-    "levels": 3,
-    "iconName": "sharpness"
+    "levels": 3
   },
   {
+    "icon": "sharpness",
     "name": "Master's Touch",
     "type": "Weapon Skill",
     "description": "Prevents your weapon from losing sharpness during critical hits.",
-    "levels": 1,
-    "iconName": "sharpness"
+    "levels": 1
   },
   {
+    "icon": "sharpness",
     "name": "Bludgeoner",
     "type": "Decoration Skill",
     "description": "Increases attack power when your weapon sharpness is low.",
-    "levels": 3,
-    "iconName": "sharpness"
+    "levels": 3
   },
   {
+    "icon": "ammo",
     "name": "Normal Shots",
     "type": "Decoration Skill",
     "description": "Increases the attack power of Normal Ammo, normal arrows, and Flying Swallow Shot.",
-    "levels": 1,
-    "iconName": "ammo"
+    "levels": 1
   },
   {
+    "icon": "ammo",
     "name": "Piercing Shots",
     "type": "Decoration Skill",
     "description": "Increases the attack of the bowgun's Pierce Ammo, and the bow's Dragon Piercer and Thousand Dragons.",
-    "levels": 1,
-    "iconName": "ammo"
+    "levels": 1
   },
   {
+    "icon": "ammo",
     "name": "Spread-Power Shots",
     "type": "Decoration Skill",
     "description": "Increases the attack of the bowgun's Spread Ammo and the bow's Power Shots and Quick Shots.",
-    "levels": 1,
-    "iconName": "ammo"
+    "levels": 1
   },
   {
+    "icon": "ammo",
     "name": "Ballistics",
     "type": "Weapon Skill",
     "description": "Extends the range in which ammo and arrows have maximum power.",
-    "levels": 3,
-    "iconName": "ammo"
+    "levels": 3
   },
   {
+    "icon": "ammo",
     "name": "Rapid Fire Up",
     "type": "Decoration Skill",
     "description": "Improves light bowgun rapid fire.",
-    "levels": 1,
-    "iconName": "ammo"
+    "levels": 1
   },
   {
+    "icon": "ammo",
     "name": "Special Ammo Boost",
     "type": "Weapon Skill",
     "description": "Increases the power of the bowgun's special ammo, and the bow's Dragon Piercer, Thousand Dragons, and Tracer.",
-    "levels": 2,
-    "iconName": "ammo"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Poison Functionality",
     "type": "Decoration Skill",
     "description": "Allows you to apply poison coatings.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Para Functionality",
     "type": "Decoration Skill",
     "description": "Allows you to apply paralysis coatings.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Sleep Functionality",
     "type": "Decoration Skill",
     "description": "Allows you to apply sleep coatings.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Blast Functionality",
     "type": "Decoration Skill",
     "description": "Allows you to apply blast coatings.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "ammo",
     "name": "Opening Shot",
     "type": "Weapon Skill",
     "description": "Increases the bowgun's reload speed and increases the power of bullets when fully loaded.",
-    "levels": 1,
-    "iconName": "ammo"
+    "levels": 1
   },
   {
+    "icon": "ammo",
     "name": "Tetrad Shot",
     "type": "Weapon Skill",
     "description": "Increases affinity of bowgun ammo/ coatings from the fourth shot and attack of the fourth and sixth shots.",
-    "levels": 3,
-    "iconName": "ammo"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Evading Reload",
     "type": "Weapon Skill",
     "description": "TBA",
-    "levels": 0,
-    "iconName": "offensive"
+    "levels": 0
   },
   {
+    "icon": "defensive",
     "name": "Defense Boost",
     "type": "Armor Skill",
     "description": "Increases defense. Also improves resistances at higher levels.",
-    "levels": 7,
-    "iconName": "defensive"
+    "levels": 7
   },
   {
+    "icon": "defensive",
     "name": "Divine Blessing",
     "type": "Armor Skill",
     "description": "Has a predetermined chance of reducing the damage you take.",
-    "levels": 3,
-    "iconName": "defensive"
+    "levels": 3
   },
   {
+    "icon": "resistance",
     "name": "Fire Resistance",
     "type": "Armor Skill",
     "description": "Increases fire resistance. Also improves defense at higher levels.",
-    "levels": 3,
-    "iconName": "resistance"
+    "levels": 3
   },
   {
+    "icon": "resistance",
     "name": "Water Resistance",
     "type": "Armor Skill",
     "description": "Increases water resistance. Also improves defense at higher levels.",
-    "levels": 3,
-    "iconName": "resistance"
+    "levels": 3
   },
   {
+    "icon": "resistance",
     "name": "Thunder Resistance",
     "type": "Armor Skill",
     "description": "Increases thunder resistance. Also improves defense at higher levels.",
-    "levels": 3,
-    "iconName": "resistance"
+    "levels": 3
   },
   {
+    "icon": "resistance",
     "name": "Ice Resistance",
     "type": "Armor Skill",
     "description": "Increases ice resistance. Also improves defense at higher levels.",
-    "levels": 3,
-    "iconName": "resistance"
+    "levels": 3
   },
   {
+    "icon": "resistance",
     "name": "Dragon Resistance",
     "type": "Armor Skill",
     "description": "Increases dragon resistance. Also improves defense at higher levels.",
-    "levels": 3,
-    "iconName": "resistance"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Poison Resistance",
     "type": "Armor Skill",
     "description": "Reduces damage while poisoned.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Paralysis Resistance",
     "type": "Armor Skill",
     "description": "Reduces the duration of paralysis.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Sleep Resistance",
     "type": "Armor Skill",
     "description": "Reduces the duration of sleep.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Iron Skin",
     "type": "Armor Skill",
     "description": "Grants protection against defense down.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "resistance",
     "name": "Blight Resistance",
     "type": "Armor Skill",
     "description": "Grants protection against all elemental blights.",
-    "levels": 3,
-    "iconName": "resistance"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Stun Resistance",
     "type": "Armor Skill",
     "description": "Reduces the duration of stun.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Bleeding Resistance",
     "type": "Armor Skill",
     "description": "Grants protection against bleeding.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Bind Resistance",
     "type": "Armor Skill",
     "description": "Grants protection against webbed status and frostblight.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Blast Resistance",
     "type": "Armor Skill",
     "description": "Grants protection against blastblight.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Adaptability",
     "type": "Armor Skill",
     "description": "Grants protection against environmental damage, such as from heat or cold.",
-    "levels": 2,
-    "iconName": "resistance_status"
+    "levels": 2
   },
   {
+    "icon": "healing",
     "name": "Recovery Up",
     "type": "Armor Skill",
     "description": "Increases the amount recovered when restoring health.",
-    "levels": 3,
-    "iconName": "healing"
+    "levels": 3
   },
   {
+    "icon": "healing",
     "name": "Recovery Speed",
     "type": "Armor Skill",
     "description": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
-    "levels": 3,
-    "iconName": "healing"
+    "levels": 3
   },
   {
+    "icon": "healing",
     "name": "Survival Expert",
     "type": "Armor Skill",
     "description": "Extra health is recovered from environmental interactables.",
-    "levels": 3,
-    "iconName": "healing"
+    "levels": 3
   },
   {
+    "icon": "stamina",
     "name": "Constitution",
     "type": "Armor Skill",
     "description": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
-    "levels": 5,
-    "iconName": "stamina"
+    "levels": 5
   },
   {
+    "icon": "stamina",
     "name": "Stamina Surge",
     "type": "Armor Skill",
     "description": "Speeds up stamina recovery.",
-    "levels": 3,
-    "iconName": "stamina"
+    "levels": 3
   },
   {
+    "icon": "stamina",
     "name": "Marathon Runner",
     "type": "Armor Skill",
     "description": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
-    "levels": 3,
-    "iconName": "stamina"
+    "levels": 3
   },
   {
+    "icon": "stamina",
     "name": "Hunger Resistance",
     "type": "Armor Skill",
     "description": "Reduces maximum stamina depletion over time.",
-    "levels": 3,
-    "iconName": "stamina"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Agitator",
     "type": "Armor Skill",
     "description": "Increases attack power and affinity when large monsters become enraged.",
-    "levels": 5,
-    "iconName": "offensive"
+    "levels": 5
   },
   {
+    "icon": "offensive",
     "name": "Latent Power",
     "type": "Armor Skill",
     "description": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
-    "levels": 5,
-    "iconName": "offensive"
+    "levels": 5
   },
   {
+    "icon": "offensive",
     "name": "Burst",
     "type": "Armor Skill",
     "description": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
-    "levels": 5,
-    "iconName": "offensive"
+    "levels": 5
   },
   {
+    "icon": "offensive",
     "name": "Flayer",
     "type": "Armor Skill",
     "description": "Makes it easier to inflict wounds. Upon inflicting enough damage, also deals additional non-elemental damage.",
-    "levels": 5,
-    "iconName": "offensive"
+    "levels": 5
   },
   {
+    "icon": "offensive",
     "name": "Heroics",
     "type": "Armor Skill",
     "description": "Increases attack power and defense when health drops to 35% or lower.",
-    "levels": 5,
-    "iconName": "offensive"
+    "levels": 5
   },
   {
+    "icon": "offensive",
     "name": "Palico Rally",
     "type": "Armor Skill",
     "description": "Powers up Palicoes.",
-    "levels": 5,
-    "iconName": "offensive"
+    "levels": 5
   },
   {
+    "icon": "offensive",
     "name": "Focus",
     "type": "Weapon Skill",
     "description": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Power Prolonger",
     "type": "Weapon Skill",
     "description": "Allows long swords, dual blades, insect glaives, switch axes, and charge blades to stay powered up longer.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Punishing Draw",
     "type": "Weapon Skill",
     "description": "Adds a stun effect to draw attacks and slightly increases attack power. (Not effective while riding.)",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Slugger",
     "type": "Weapon Skill",
     "description": "Makes it easier to stun monsters.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Stamina Thief",
     "type": "Weapon Skill",
     "description": "Increases certain attacks' ability to exhaust monsters.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Artillery",
     "type": "Weapon Skill",
     "description": "Strengthens explosive attacks like shells, Wyvern's Fire, charge blade phial attacks, and Sticky Ammo.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Rapid Morph",
     "type": "Weapon Skill",
     "description": "Increases switch speed and power for switch axes and charge blades.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Partbreaker",
     "type": "Armor Skill",
     "description": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Foray",
     "type": "Armor Skill",
     "description": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
-    "levels": 5,
-    "iconName": "offensive"
+    "levels": 5
   },
   {
+    "icon": "offensive",
     "name": "Coalescence",
     "type": "Armor Skill",
     "description": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Ambush",
     "type": "Armor Skill",
     "description": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Antivirus",
     "type": "Armor Skill",
     "description": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "element",
     "name": "Elemental Absorption",
     "type": "Armor Skill",
     "description": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)",
-    "levels": 3,
-    "iconName": "element"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Horn Maestro",
     "type": "Weapon Skill",
     "description": "Increases the effect duration of hunting horn melodies. (Effect lost when you change weapons.)",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Charge Up",
     "type": "Weapon Skill",
     "description": "Increases your power to induce stun when you hit a monster with a hammer's charged attack.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Airborne",
     "type": "Weapon Skill",
     "description": "Increases the damage caused by jumping attacks.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Self-Improvement",
     "type": "Decoration Skill",
     "description": "Attack and defense increase as time passes while on a quest. (The maximum is reached after 30 minutes.)",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Poison Duration Up",
     "type": "Weapon Skill",
     "description": "Extends the duration of your poison's effect on monsters.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Guard",
     "type": "Weapon Skill",
     "description": "Reduces knockbacks and stamina depletion when guarding.",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "defensive",
     "name": "Evade Window",
     "type": "Armor Skill",
     "description": "Extends the invulnerability period when evading.",
-    "levels": 5,
-    "iconName": "defensive"
+    "levels": 5
   },
   {
+    "icon": "defensive",
     "name": "Evade Extender",
     "type": "Armor Skill",
     "description": "Increases evade distance.",
-    "levels": 3,
-    "iconName": "defensive"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Earplugs",
     "type": "Armor Skill",
     "description": "Grants protection from large monsters' roars.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "defensive",
     "name": "Guard Up",
     "type": "Weapon Skill",
     "description": "Allows you to guard against ordinarily unblockable attacks.",
-    "levels": 3,
-    "iconName": "defensive"
+    "levels": 3
   },
   {
+    "icon": "defensive",
     "name": "Quick Sheathe",
     "type": "Armor Skill",
     "description": "Speeds up weapon sheathing.",
-    "levels": 3,
-    "iconName": "defensive"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Windproof",
     "type": "Armor Skill",
     "description": "Grants protection against wind pressure.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "resistance_status",
     "name": "Tremor Resistance",
     "type": "Armor Skill",
     "description": "Grants protection against ground tremors.",
-    "levels": 3,
-    "iconName": "resistance_status"
+    "levels": 3
   },
   {
+    "icon": "defensive",
     "name": "Flinch Free",
     "type": "Armor Skill",
     "description": "Prevents knockbacks and other reactions to small damage.",
-    "levels": 3,
-    "iconName": "defensive"
+    "levels": 3
   },
   {
+    "icon": "offensive",
     "name": "Intimidator",
     "type": "Armor Skill",
     "description": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "items",
     "name": "Speed Eating",
     "type": "Armor Skill",
     "description": "Increases meat-eating and item-consumption speed.",
-    "levels": 3,
-    "iconName": "items"
+    "levels": 3
   },
   {
+    "icon": "ammo",
     "name": "Load Shells",
     "type": "Weapon Skill",
     "description": "Improves reloading, and increases the gunlance's shell capacity and charge blade's phial capacity.",
-    "levels": 2,
-    "iconName": "ammo"
+    "levels": 2
   },
   {
+    "icon": "resistance_status",
     "name": "Aquatic-Oilsilt Mobility",
     "type": "Armor Skill",
     "description": "Grants resistance against impairments to mobility while in water, oilsilt, or streams.",
-    "levels": 2,
-    "iconName": "resistance_status"
+    "levels": 2
   },
   {
+    "icon": "items",
     "name": "Shock Absorber",
     "type": "Decoration Skill",
     "description": "Disables damage reactions when you hit a friend or when a friend hits you.",
-    "levels": 1,
-    "iconName": "items"
+    "levels": 1
   },
   {
+    "icon": "defensive",
     "name": "Leap of Faith",
     "type": "Armor Skill",
     "description": "Allows you to do a dive-evade when facing towards large monsters and extends the dive-evade distance.",
-    "levels": 1,
-    "iconName": "defensive"
+    "levels": 1
   },
   {
+    "icon": "defensive",
     "name": "Jump Master",
     "type": "Armor Skill",
     "description": "Prevents attacks from knocking you back during a jump.",
-    "levels": 1,
-    "iconName": "defensive"
+    "levels": 1
   },
   {
+    "icon": "gathering",
     "name": "Cliffhanger",
     "type": "Armor Skill",
     "description": "Decreases stamina depletion when climbing on vines.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Wide-Range",
     "type": "Armor Skill",
     "description": "Allows the effects of certain items to also affect nearby allies.",
-    "levels": 5,
-    "iconName": "offensive"
+    "levels": 5
   },
   {
+    "icon": "items",
     "name": "Tool Specialist",
     "type": "Armor Skill",
     "description": "Reduces the recharge time for specialized tools.",
-    "levels": 5,
-    "iconName": "items"
+    "levels": 5
   },
   {
+    "icon": "items",
     "name": "Bombardier",
     "type": "Armor Skill",
     "description": "Increases the damage of explosive items.",
-    "levels": 3,
-    "iconName": "items"
+    "levels": 3
   },
   {
+    "icon": "items",
     "name": "Mushroomancer",
     "type": "Armor Skill",
     "description": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
-    "levels": 3,
-    "iconName": "items"
+    "levels": 3
   },
   {
+    "icon": "items",
     "name": "Item Prolonger",
     "type": "Armor Skill",
     "description": "Extends the duration of some item effects.",
-    "levels": 3,
-    "iconName": "items"
+    "levels": 3
   },
   {
+    "icon": "items",
     "name": "Free Meal",
     "type": "Armor Skill",
     "description": "Gives you a predetermined chance of consuming a food or drink item for free.",
-    "levels": 3,
-    "iconName": "items"
+    "levels": 3
   },
   {
+    "icon": "items",
     "name": "Speed Sharpening",
     "type": "Weapon Skill",
     "description": "Speeds up weapon sharpening when using a whetstone.",
-    "levels": 2,
-    "iconName": "items"
+    "levels": 2
   },
   {
+    "icon": "resistance_status",
     "name": "Stench Resistance",
     "type": "Armor Skill",
     "description": "Grants protection against stench.",
-    "levels": 2,
-    "iconName": "resistance_status"
+    "levels": 2
   },
   {
+    "icon": "gathering",
     "name": "Blindsider",
     "type": "Armor Skill",
     "description": "Improves the effectiveness of flash attacks and items.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "gathering",
     "name": "Botanist",
     "type": "Armor Skill",
     "description": "Increases the quantity of herbs and other consumable items you gather.",
-    "levels": 4,
-    "iconName": "gathering"
+    "levels": 4
   },
   {
+    "icon": "gathering",
     "name": "Geologist",
     "type": "Armor Skill",
     "description": "Increases the number of items you gain at gathering points.",
-    "levels": 3,
-    "iconName": "gathering"
+    "levels": 3
   },
   {
+    "icon": "gathering",
     "name": "Entomologist",
     "type": "Armor Skill",
     "description": "The bodies of small insect monsters won't be destroyed, allowing them to be carved.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "gathering",
     "name": "Outdoorsman",
     "type": "Armor Skill",
     "description": "Improves fishing, grilling, and transporting abilities.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "gathering",
     "name": "Honey Hunter",
     "type": "Armor Skill",
     "description": "Increases the amount of honey you gain from gathering points.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "gathering",
     "name": "Fleetfoot",
     "type": "Armor Skill",
     "description": "Increases movement speed while crouching, and makes it easier to escape large monsters' detection.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "gathering",
     "name": "Master Mounter",
     "type": "Armor Skill",
     "description": "Makes it easier to mount monsters and to wound them once mounted.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "stamina",
     "name": "Adrenaline",
     "type": "Armor Skill",
     "description": "Temporarily reduces stamina depletion when health is at 40% or lower.",
-    "levels": 1,
-    "iconName": "stamina"
+    "levels": 1
   },
   {
+    "icon": "gathering",
     "name": "Hunter Gatherer",
     "type": "Armor Skill",
     "description": "Increases gathering speed, and prevents knock back when gathering or carving.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "crit",
     "name": "Affinity Sliding",
     "type": "Armor Skill",
     "description": "Increases your affinity temporarily when sliding on terrain.",
-    "levels": 1,
-    "iconName": "crit"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Fortify",
     "type": "Armor Skill",
     "description": "Increases attack and defense after fainting during a quest. (Can be used twice.)",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Diversion",
     "type": "Armor Skill",
     "description": "Increases the attention drawn to you when attacking a monster.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Inspiration",
     "type": "Armor Skill",
     "description": "Temporarily increases attack power when using effects like Melody Effects that affect companions in range.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Resuscitate",
     "type": "Armor Skill",
     "description": "Increases attack when inflicted with ailments.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "stamina",
     "name": "Wylk Burst",
     "type": "Armor Skill",
     "description": "Increases recovery speed of stamina and red gauge when near Wylkrystals.",
-    "levels": 1,
-    "iconName": "stamina"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Ward of Wyveria",
     "type": "Armor Skill",
     "description": "Reduces elemental and unique damage while in the Ruins of Wyveria.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "gathering",
     "name": "Forager's Luck",
     "type": "Armor Skill",
     "description": "Increases the chance of finding rare gathering points.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Powerhouse I",
     "type": "Armor Skill",
     "description": "Temporarily grants attack +10 after a successful Power Clash or Offset attack",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Scorcher I",
     "type": "Armor Skill",
     "description": "Chance to deal additional fire damage after landing an attack.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "stamina",
     "name": "Second Wind I",
     "type": "Armor Skill",
     "description": "Grants an additional Stamina Gauge.",
-    "levels": 1,
-    "iconName": "stamina"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Flawless Armor I",
     "type": "Armor Skill",
     "description": "Reduces the damage you take by 5% when your health is full.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "War Cry I",
     "type": "Armor Skill",
     "description": "Using the To Victory! gesture moderately increases attack temporarily to nearby allies. Greatly effects Palicoes and Support Hunters.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Mutual Hostility I",
     "type": "Armor Skill",
     "description": "Increases elemental attack when large monsters become enraged.",
-    "levels": 0,
-    "iconName": "offensive"
+    "levels": 0
   },
   {
+    "icon": "offensive",
     "name": "Mutual Hostility II",
     "type": "Armor Skill",
     "description": "Level I effect is increased, and you gain a temporary damage barrier. (Barrier reactivates after cooldown.)",
-    "levels": 0,
-    "iconName": "offensive"
+    "levels": 0
   },
   {
+    "icon": "offensive",
     "name": "Burst Boost I",
     "type": "Armor Skill",
     "description": "Extends the duration of the Burst skill and grants attack +3 while Burst is active.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Protein Fiend I",
     "type": "Armor Skill",
     "description": "Temporarily grants attack +15 after eating items such as well-done steak.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Protective Veil I",
     "type": "Armor Skill",
     "description": "Increases defense temporarily when using a specialized tool.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Thunderous Roar I",
     "type": "Armor Skill",
     "description": "Moderately extends the activation time of the Latent Power skill.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Bad Blood I",
     "type": "Armor Skill",
     "description": "Deals moderate additional damage while the Resentment skill is active.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Binding Counter I",
     "type": "Armor Skill",
     "description": "Increases attack after recovering from webbed status, frostblight, being pinned, or a Power Clash.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Black Eclipse I",
     "type": "Armor Skill",
     "description": "Infects you with Frenzy when against large monsters.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "healing",
     "name": "Decimator I",
     "type": "Armor Skill",
     "description": "Restores a moderate amount of health when destroying a wound on a large monster.",
-    "levels": 1,
-    "iconName": "healing"
+    "levels": 1
   },
   {
+    "icon": "healing",
     "name": "Hasten Recovery I",
     "type": "Armor Skill",
     "description": "Regenerates a small amount of your health as you continually attack a monster. Recovery varies by weapon.",
-    "levels": 1,
-    "iconName": "healing"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Powerhouse II",
     "type": "Armor Skill",
     "description": "Temporarily grants attack +25 after a successful Power Clash or Offset attack",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Scorcher II",
     "type": "Armor Skill",
     "description": "Increases additional fire damage after landing an attack.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "stamina",
     "name": "Second Wind II",
     "type": "Armor Skill",
     "description": "Grants an additional long Stamina Gauge.",
-    "levels": 1,
-    "iconName": "stamina"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Flawless Armor II",
     "type": "Armor Skill",
     "description": "Reduces the damage you take by 10% when your health is full.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "War Cry II",
     "type": "Armor Skill",
     "description": "Using the To Victory! gesture increases attack temporarily to nearby allies. Greatly effects Palicoes and Support Hunters.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Burst Boost II",
     "type": "Armor Skill",
     "description": "Further extends the duration of the Burst skill and grants attack +10 while Burst is active.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Protein Fiend II",
     "type": "Armor Skill",
     "description": "Temporarily grants attack +25 after eating items such as well-done steak.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Protective Veil II",
     "type": "Armor Skill",
     "description": "Greatly increases defense and resistance temporarily when using a specialized tool.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Thunderous Roar II",
     "type": "Armor Skill",
     "description": "Extends the activation time of the Latent Power skill.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Bad Blood II",
     "type": "Armor Skill",
     "description": "Deals additional damage while the Resentment skill is active.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Binding Counter II",
     "type": "Armor Skill",
     "description": "Greatly increases attack after recovering from webbed status, frostblight, being pinned, or a Power Clash.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Black Eclipse II",
     "type": "Armor Skill",
     "description": "Infects you with Frenzy and raises attack when against large monsters. Attack power increases upon recovery.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "healing",
     "name": "Decimator II",
     "type": "Armor Skill",
     "description": "Restores health when destroying a wound on a large monster.",
-    "levels": 1,
-    "iconName": "healing"
+    "levels": 1
   },
   {
+    "icon": "healing",
     "name": "Hasten Recovery II",
     "type": "Armor Skill",
     "description": "Regenerates your health as you continually attack a monster. Recovery varies by weapon.",
-    "levels": 1,
-    "iconName": "healing"
+    "levels": 1
   },
   {
+    "icon": "ammo",
     "name": "Exhaust Functionality",
     "type": "Decoration Skill",
     "description": "Allows you to apply exhaust coatings",
-    "levels": 1,
-    "iconName": "ammo"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Neopteron Alert",
     "type": "Group Skill",
     "description": "Increases the amount of honey you gain from gathering points.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Neopteron Camouflage",
     "type": "Group Skill",
     "description": "Increases movement speed while crouching, and makes it easier to escape large monsters' detection.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Scaling Prowess",
     "type": "Group Skill",
     "description": "Makes it easier to mount monsters and to wound them once mounted.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Scale Layering",
     "type": "Group Skill",
     "description": "Temporarily reduces stamina depletion when health is at 40% or lower.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Flexible Leathercraft",
     "type": "Group Skill",
     "description": "Increases gathering speed, and prevents knock back when gathering or carving.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Buttery Leathercraft",
     "type": "Group Skill",
     "description": "Increases your affinity temporarily when sliding on terrain.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Fortifying Pelt",
     "type": "Group Skill",
     "description": "Increases attack and defense after fainting during a quest. (Can be used twice.)",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Alluring Pelt",
     "type": "Group Skill",
     "description": "Increases the attention drawn to you when attacking a monster.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Lord's Favor",
     "type": "Group Skill",
     "description": "Temporarily increases attack power when using effects like Melody Effects that affect companions in range.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Lord's Fury",
     "type": "Group Skill",
     "description": "Increases attack when inflicted with ailments.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "defensive",
     "name": "Guardian's Pulse",
     "type": "Group Skill",
     "description": "Increases recovery speed of stamina and red gauge when near Wylkrystals.",
-    "levels": 1,
-    "iconName": "defensive"
+    "levels": 1
   },
   {
+    "icon": "defensive",
     "name": "Guardian's Protection",
     "type": "Group Skill",
     "description": "Reduces elemental and unique damage while in the Ruins of Wyveria.",
-    "levels": 1,
-    "iconName": "defensive"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Imparted Wisdom",
     "type": "Group Skill",
     "description": "Increases the chance of finding rare gathering points.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Doshaguma's Might",
     "type": "Set Bonus Skill",
     "description": "Temporarily increases attack after a successful Power Clash or Offset attack.",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Rathalos's Flare",
     "type": "Set Bonus Skill",
     "description": "Chance to deal additional Fire Damage after landing an attack.",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Fulgur Anjanath's Will",
     "type": "Set Bonus Skill",
     "description": "Grants an additional Stamina Gauge",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Gravios's Protection",
     "type": "Set Bonus Skill",
     "description": "Reduces damage taken when health is full",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Blangonga's Spirit",
     "type": "Set Bonus Skill",
     "description": "Increases attack by using the To Victory! gesture",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Ebony Odogaron's Power",
     "type": "Set Bonus Skill",
     "description": "Increases the duration of the Burst skill",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Xu Wu's Vigor",
     "type": "Set Bonus Skill",
     "description": "Increases attack after eating certain items",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Uth Duna's Cover",
     "type": "Set Bonus Skill",
     "description": "Increases defense when using a specialized tool",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Rey Dau's Voltage",
     "type": "Set Bonus Skill",
     "description": "Increases the activation time of the Latent Power skill",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Nu Udra's Mutiny",
     "type": "Set Bonus Skill",
     "description": "Increases the damage output while Resentment is active",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "set_bonus",
     "name": "Jin Dahaad's Revolt",
     "type": "Set Bonus Skill",
     "description": "Increases attack after recovering from certain status effects",
-    "levels": 2,
-    "iconName": "set_bonus"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Gore Magala's Tyranny",
     "type": "Set Bonus Skill",
     "description": "Infects you with Frenzy when against Large Monsters",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Guardian Arkveld's Vitality",
     "type": "Set Bonus Skill",
     "description": "Restores health when destroying a wound on a Large Monster",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Arkveld's Hunger",
     "type": "Set Bonus Skill",
     "description": "Regenerates health as you continually attack a monster.",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "healing",
     "name": "Super Recovery I",
     "type": "Armor Skill",
     "description": "Allows the Health Gauge to continue to slowly recover up to the max value, even if there is no red portion.",
-    "levels": 2,
-    "iconName": "healing"
+    "levels": 2
   },
   {
+    "icon": "healing",
     "name": "Super Recovery II",
     "type": "Armor Skill",
     "description": "Allows the Health Gauge to continue to recover up to the max value, even if there is no red portion.",
-    "levels": 2,
-    "iconName": "healing"
+    "levels": 2
   },
   {
+    "icon": "defensive",
     "name": "Bubbly Dance I",
     "type": "Armor Skill",
     "description": "Prevents major bubbleblight and increases evasion while afflicted with minor bubbleblight.",
-    "levels": 2,
-    "iconName": "defensive"
+    "levels": 2
   },
   {
+    "icon": "defensive",
     "name": "Bubbly Dance II",
     "type": "Armor Skill",
     "description": "Prevents major bubbleblight and ups evasion while afflicted. Trigger minor bubbleblight by evading many times.",
-    "levels": 2,
-    "iconName": "defensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Slicked Blade",
     "type": "Weapon Skill",
     "description": "Temporarily increases affinity when wet or when inflicted with bubbleblight. (Wet and bubbleblight effects stack.)",
-    "levels": 3,
-    "iconName": "offensive"
+    "levels": 3
   },
   {
+    "icon": "resistance",
     "name": "Convert Thunder Resistance",
     "type": "Weapon Skill",
     "description": "Increase to your weapon's elemental attack proportional to your thunder resistance.",
-    "levels": 1,
-    "iconName": "resistance"
+    "levels": 1
   },
   {
+    "icon": "sharpness",
     "name": "Bladescale Loading",
     "type": "Weapon Skill",
     "description": "Narrowly evading a monster's attack while your weapon is drawn grants special loaded ammo or applied coatings.",
-    "levels": 1,
-    "iconName": "sharpness"
+    "levels": 1
   },
   {
+    "icon": "sharpness",
     "name": "Bladescale Honing",
     "type": "Weapon Skill",
     "description": "Narrowly evading a monster's attack while your weapon is drawn grants special sharpness.",
-    "levels": 1,
-    "iconName": "sharpness"
+    "levels": 1
   },
   {
+    "icon": "attack",
     "name": "Whiteflame Torrent",
     "type": "Weapon Skill",
     "description": "Activate skill effect. (When used with Scorcher, does not stack but adds extra fire damage.)",
-    "levels": 1,
-    "iconName": "attack"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Lord's Soul",
     "type": "Group Skill",
     "description": "Boosts attack and lowers defense but lets you survive one lethal hit. Afterwards, boosts defense and res.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Guts (Tenacity)",
     "type": "Armor Skill",
     "description": "Boosts attack and lowers defense but lets you survive one lethal hit. Afterwards, boosts defense and res.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Crackling Cornpopper",
     "type": "Weapon Skill",
     "description": "Increases shelling power and fire attack while overheated.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "items",
     "name": "Flamefete Boon I",
     "type": "Armor Skill",
     "description": "During Flamefete, adds special items to quest rewards.",
-    "levels": 1,
-    "iconName": "items"
+    "levels": 1
   },
   {
+    "icon": "items",
     "name": "Flamefete Boon II",
     "type": "Armor Skill",
     "description": "During Flamefete, adds special items to quest rewards, and greatly boosts attack and defense.",
-    "levels": 1,
-    "iconName": "items"
+    "levels": 1
   },
   {
+    "icon": "gathering",
     "name": "Festival Spirit",
     "type": "Group Skill",
     "description": "Lets you carve one additional time from carcasses during quests.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "gathering",
     "name": "Carving Master",
     "type": "Armor Skill",
     "description": "Lets you carve one additional time from carcasses during quests.",
-    "levels": 1,
-    "iconName": "gathering"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Power Stone",
     "type": "Weapon Skill",
     "description": "Temporarily increases attack upon mining materials.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Darkside",
     "type": "Weapon Skill",
     "description": "Performing certain Lv 2 or higher charged slashes temporarily increases attack but also deals self-damage.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Synergy",
     "type": "Weapon Skill",
     "description": "Temporarily increases your affinity and the affinity of those around you after using a Rising Spiral Slash.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Synthetic Shield",
     "type": "Weapon Skill",
     "description": "Temporarily increases your defense and the defense of those around you after a successful Perfect Guard.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Dark Arts",
     "type": "Armor Skill",
     "description": "Having recoverable damage increases elemental attack, and some great sword Lv 3 charged slashes are strengthened.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "The Blackest Night",
     "type": "Armor Skill",
     "description": "Allows you to perform the special action: The Blackest Night.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Resonance I",
     "type": "Armor Skill",
     "description": "(When quest starts) Local and Remote Resonance alternate, increasing attack or affinity when conditions are met.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Resonance II",
     "type": "Armor Skill",
     "description": "Increases the effects of Resonance I, and the effect of the weapon skill Synthetic Shield or the effect of Synergy.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Grillmaster",
     "type": "Weapon Skill",
     "description": "Grill meat to sharpen your weapon and temporarily increase your attack (Duration and effect vary based on results.)",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Blossomdance Prayer",
     "type": "Set Bonus Skill",
     "description": "During Blossomdance, adds special items to quest rewards.",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "items",
     "name": "Flamefete Prayer",
     "type": "Set Bonus Skill",
     "description": "During Flamefete, adds special items to quest rewards.",
-    "levels": 2,
-    "iconName": "items"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Dreamspell Prayer",
     "type": "Set Bonus Skill",
     "description": "During Dreamspell, adds special items to quest rewards.",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Leviathan's Fury",
     "type": "Set Bonus Skill",
     "description": "Can temporarily increase affinity and deal extra thunder damage",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Mizutsune's Prowess",
     "type": "Set Bonus Skill",
     "description": "Prevents major bubbleblight, and increases evasion with minor bubbleblight",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Omega Resonance",
     "type": "Set Bonus Skill",
     "description": "Increases attack or affinity when certain conditions are met.",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Seregios's Tenacity",
     "type": "Set Bonus Skill",
     "description": "Increases the duration of Adrenaline Rush. Can also increase attack.",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Soul of the Dark Knight",
     "type": "Set Bonus Skill",
     "description": "May increase some Great Swords LV 3 charged slashes, and grants you a special action called The Blackest Night.",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Zoh Shia's Pulse",
     "type": "Set Bonus Skill",
     "description": "Allows the Health Gauge to slowly recover up to the max value, even if there is no red portion.",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Gogmapocalypse",
     "type": "Set Bonus Skill",
     "description": "Increases elemental damage when large monsters become enraged",
-    "levels": 2,
-    "iconName": "offensive"
+    "levels": 2
   },
   {
+    "icon": "offensive",
     "name": "Rice Ball",
     "type": "Armor Skill",
     "description": "Increases the attack power of Akuma actions and stun damage.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Glory's Favor",
     "type": "Group Skill",
     "description": "Increases quest target rewards. (No effect when joining mid-quest.)",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Luck",
     "type": "Armor Skill",
     "description": "Increases quest target rewards. (No effect when joining mid-quest.)",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "group",
     "name": "Master of the Fist",
     "type": "Group Skill",
     "description": "Increases power of special actions. Drive Impacts can trigger offset attacks. Further increases power of offset attacks.",
-    "levels": 1,
-    "iconName": "group"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Satsui no Hado",
     "type": "Armor Skill",
     "description": "Increases power of special actions. Drive Impacts can trigger offset attacks. Further increases power of offset attacks.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Blossomdance Boon I",
     "type": "Armor Skill",
     "description": "During Blossomdance, adds special items to quest rewards. (No effect when joining mid-quest)",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Blossomdance Boon II",
     "type": "Armor Skill",
     "description": "During Blossomdance, adds special items to quest rewards. (No effect when joining mid-quest)",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Dreamspell Boon I",
     "type": "Armor Skill",
     "description": "During Dreamspell, adds special items to quest rewards. (No effect when joining mid-quest.)",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Dreamspell Boon II",
     "type": "Armor Skill",
     "description": "During Dreamspell, adds special items to quest rewards, and greatly boosts attack and defense.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Azure Bolt I",
     "type": "Armor Skill",
     "description": "Temporarily increases affinity and can deal extra thunder damage upon buildup. (Excludes some attacks.)",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Azure Bolt II",
     "type": "Armor Skill",
     "description": "Further increases additional thunder damage and moderately extends the duration affinity is increased.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Razor's Edge I",
     "type": "Armor Skill",
     "description": "Extends the duration of Adrenaline Rush. If triggered again while the skill is active, extends the effect duration once.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Razor's Edge II",
     "type": "Armor Skill",
     "description": "Additionally, if triggered again while the skill is active, further increases attack.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   },
   {
+    "icon": "offensive",
     "name": "Catburglar",
     "type": "Weapon Skill",
     "description": "Grants a small chance of obtaining various items when landing critical hits.",
-    "levels": 1,
-    "iconName": "offensive"
+    "levels": 1
   }
 ]
