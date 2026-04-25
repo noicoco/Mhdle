@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import MonsterView from '../views/MonsterView.vue'
 import RoarView from '../views/RoarView.vue'
-import TalentView from '../views/TalentView.vue'
+import SkillView from '../views/SkillView.vue'
 import CompendiumView from '../views/CompendiumView.vue'
 
 
@@ -25,9 +25,9 @@ const router = createRouter({
       component: RoarView,
     },
     {
-      path: '/talent',
-      name: 'talent',
-      component: TalentView,
+      path: '/skill',
+      name: 'skill',
+      component: SkillView,
     },
     {
       path: '/compendium',

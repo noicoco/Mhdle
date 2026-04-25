@@ -9,7 +9,7 @@ import routeButton from "@/views/components/routeButton.vue";
   <div class="nav-links">
     <routeButton :name="'monster'" :id="'2'" />
     <routeButton :name="'roar'" :id="'3'" />
-    <routeButton :name="'talent'" :id="'4'" />
+    <routeButton :name="'skill'" :id="'4'" />
     <routeButton :name="'compendium'" :id="'5'" />
   </div>
 </div>
