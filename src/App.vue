@@ -3,28 +3,28 @@ import {RouterLink, RouterView} from 'vue-router'
 import {provide, ref} from 'vue';
 
 import monsterData from '../assets/data/monster_data.json';
+import skillData from '../assets/data/skill_data.json';
 
-function getTodayMonster() {
+function getTodayRandom(data) {
   let date = new Date();
   let year = date.getFullYear();
   let month = date.getMonth() + 1;
   let day = date.getUTCDate();
 
-  let math = (year+ month + day) % monsterData.length;
+  let math = (year+ month + day) % data.length;
 
-  console.log(math);
-
-  let monster = monsterData[math];
-
-  return monster;
+  return data[math];
 }
 
 
 provide('monsterData', monsterData);
-provide('selectedMonster', getTodayMonster())
+provide('skillData', skillData);
 
-const monster = ref(getTodayMonster())
+const monster = ref(getTodayRandom(monsterData))
+const skill = ref(getTodayRandom(skillData))
 
+provide('selectedMonster', monster)
+provide('selectedSkill', skill)
 // FIXME: Possible issues with spacing with the header and main content, we'll see
 </script>
 
@@ -39,7 +39,7 @@ const monster = ref(getTodayMonster())
 
   <div id="background"></div>
 
-  <span class="debug">Current Monster: {{monster.name}}</span>
+  <span class="debug">Current Monster: {{monster.name}}<br>Current Skill: {{skill.name}}</span>
 
   <main>
     <RouterView/>
