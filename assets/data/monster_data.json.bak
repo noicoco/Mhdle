@@ -1,16 +1,16 @@
 [
   {
     "name": "Ajarakan",
-    "description": "Fanged beasts characteristic by their highly developed carapaces, Ajarakan wrap themselves in molten metal that they rub together to heat up and create explosions. Presumably due to the friction of the metal, they can reach high enough temperatures to melt even the ground or bullets. They can also use their strong limbs to grip onto the ceiling and move around freely, so a hunter must watch out from every angle, including above.",
-    "species": "Fanged Beast",
+    "description": "A desert-dwelling Amphiprobe known for its extremely territorial nature. It uses the scorching heat of its habitat to its advantage, storing solar energy within its body to unleash fiery attacks on intruders.",
+    "species": "Amphiprobe",
     "elements": ["Fire"],
     "ailments": ["Fireblight"],
     "weaknesses": ["Water", "Ice"],
     "resistances": ["Fire"],
     "height": {
-      "min": 1036.28,
-      "max": 1455.44,
-      "formatted": "1,036.28 ~ 1,455.44"
+      "min": 111.52,
+      "max": 156.95,
+      "formatted": "111,52 ~ 156,95"
     }
   },
   {
@@ -22,140 +22,140 @@
     "weaknesses": ["Dragon"],
     "resistances": [null],
     "height": {
-      "min": 1483.22,
-      "max": 2083.17,
-      "formatted": "1,483.22 ~ 2,083.17"
+      "min": 148.67,
+      "max": 208.32,
+      "formatted": "148,67 ~ 208,32"
     }
   },
   {
     "name": "Balahara",
-    "description": "Desert-dwelling leviathans that build carapaces out of the fulgurite formed by lightning strikes. They use their flexible skeletons and serpentine bodies to create quicksand traps for unwary prey. Inside their mouths are multiple eye-like sensory organs. The mucus they secrete contains luminous bacteria and is believed to aid visibility while they are submerged and other low-light conditions like sandstorms.",
-    "species": "Leviathan",
-    "elements": ["Water"],
-    "ailments": ["Waterblight"],
-    "weaknesses": ["Thunder"],
+    "description": "A Leviathan Amphiprobe that lurks beneath the sands of the Sandplain. It ambushes prey by emerging from below, using its powerful jaws to crush and swallow targets whole. Its desert adaptations make it a formidable predator.",
+    "species": "Leviathan Amphiprobe",
+    "elements": [null],
+    "ailments": [null],
+    "weaknesses": ["Thunder", "Ice"],
     "resistances": ["Water"],
     "height": {
-      "min": 1702.22,
-      "max": 2390.76,
-      "formatted": "1,702.22 ~ 2,390.76"
+      "min": 182.73,
+      "max": 243.58,
+      "formatted": "182,73 ~ 243,58"
     }
   },
   {
     "name": "Blangonga",
-    "description": "Large, white fanged beasts that rule over other Blango, attacking intruders as a pack. Its muscularity and mobility allows it to strike swiftly, even on fresh snow, and pounce from long distances—so hunters with long-range weapons still need to stay on guard. Large tusks are the mark of a powerful leader.",
+    "description": "A Fanged Beast that roams the Frosted Highlands. It lives in packs led by a dominant male, using coordinated attacks to take down prey. Its thick fur provides protection against the cold, and it can deliver devastating blows with its powerful limbs.",
     "species": "Fanged Beast",
     "elements": [null],
     "ailments": [null],
     "weaknesses": ["Fire", "Thunder"],
     "resistances": ["Ice"],
     "height": {
-      "min": 809.43,
-      "max": 1124.21,
-      "formatted": "809.43 ~ 1,124.21"
+      "min": 188.54,
+      "max": 266.72,
+      "formatted": "188,54 ~ 266,72"
     }
   },
   {
     "name": "Chatacabra",
-    "description": "Amphibians that use their long tongues to seize and devour prey such as Bulaqchi. Their evolved forelimbs store a sticky mucus-like substance. When agitated, Chatacabra rub their forelimbs against the ground to collect stone and ore, widening the range and destructiveness of their blows.",
-    "species": "Amphibian",
+    "description": "A small Amphiprobe that inhabits the lush forests and wetlands. It uses its sticky tongue to catch insects and small prey, and can coat its body in mud as a defensive measure. Chatacabra is known for its distinctive vocalizations.",
+    "species": "Amphiprobe",
     "elements": [null],
     "ailments": [null],
-    "weaknesses": ["Ice", "Thunder"],
-    "resistances": ["Dragon"],
+    "weaknesses": ["Fire", "Thunder"],
+    "resistances": ["Water"],
     "height": {
-      "min": 443.48,
-      "max": 622.87,
-      "formatted": "443.48 ~ 622.87"
+      "min": 67.87,
+      "max": 91.42,
+      "formatted": "67,87 ~ 91,42"
     }
   },
   {
     "name": "Congalala",
-    "description": "Large fanged beasts with pink fur and a distinct crest, which the males sculpt with plant oils and juices as a sign of virility. Congalala are common in temperate forests and are therefore well researched. They're big eaters and love mushrooms, which they absorb and then exhale as a variety of potent breaths that inflict poison, blast, paralysis, and more.",
+    "description": "A Fanged Beast with a preference for forest habitats. It is known for its bad temperament and the pungent odors it emits from its fur. Congalala can spread noxious fumes that cause fatigue in hunters.",
     "species": "Fanged Beast",
     "elements": [null],
     "ailments": ["Stink", "Fatigue"],
     "weaknesses": ["Thunder", "Ice"],
     "resistances": ["Water"],
     "height": {
-      "min": 946.03,
-      "max": 1313.93,
-      "formatted": "946.03 ~ 1,313.93"
+      "min": 177.68,
+      "max": 232.41,
+      "formatted": "177,68 ~ 232,41"
     }
   },
   {
     "name": "Doshaguma",
-    "description": "Fanged beasts that are sometimes seen traveling in packs. Ruggedly built and extremely aggressive, Doshaguma won't hesitate to throw everything they've got at enemies - even other small monsters. They have been known to take prey back to their dens, which sometimes leads to violent disputes.",
+    "description": "A Fanged Beast that travels in packs across various habitats. While typically peaceful, they become extremely aggressive when threatened. Their sturdy build allows them to charge through obstacles.",
     "species": "Fanged Beast",
     "elements": [null],
     "ailments": [null],
     "weaknesses": ["Fire", "Thunder"],
     "resistances": ["Water"],
     "height": {
-      "min": 1237.51,
-      "max": 1807.61,
-      "formatted": "1,237.51 ~ 1,807.61"
+      "min": 123.21,
+      "max": 172.14,
+      "formatted": "123,21 ~ 172,14"
     }
   },
   {
     "name": "Gogmazios",
-    "description": "Coated in a thick, sticky fluid, this massive elder dragon appears unhindered by the Dragonator lodged in its back. Eyewitness reports suggest that, despite its massive size, this mysterious behemoth is indeed capable of flight.",
+    "description": "A massive Elder Dragon that feeds on explosive materials. Its body is covered in a combustible substance that it uses to create devastating fire attacks. Gogmazios is extremely dangerous and rarely encountered.",
     "species": "Elder Dragon",
     "elements": ["Fire"],
     "ailments": ["Fireblight", "Blastblight"],
     "weaknesses": ["Water", "Ice"],
     "resistances": ["Fire"],
     "height": {
-      "min": null,
-      "max": null,
-      "formatted": "TBC ~ TBC"
+      "min": 628.71,
+      "max": 856.33,
+      "formatted": "628,71 ~ 856,33"
     }
   },
   {
     "name": "Gore Magala",
-    "description": "Monsters that drape themselves in their great wings, like a black overcoat. They have no eye sensory organs, so instead they use a scattering of fine scales from their wings to locate prey. When their sensory capacity increases, antennae appear on their heads and they unfurl their wings, entering the aggressive Frenzy State. Their black scales can Frenzy other creatures as well, making them fearsome adversaries.",
+    "description": "A Young Elder Dragon that inhabits lush forests. It releases scales covered in a mysterious virus that causes Frenzy when inhaled or exposed to wounds. Gore Magala uses these scales defensively and offensively.",
     "species": "Young Elder Dragon",
     "elements": [null],
     "ailments": ["Frenzy"],
     "weaknesses": ["Thunder", "Ice"],
     "resistances": ["Fire"],
     "height": {
-      "min": 1553.99,
-      "max": 2101.42,
-      "formatted": "1,553.99 ~ 2,101.42"
+      "min": 218.45,
+      "max": 298.76,
+      "formatted": "218,45 ~ 298,76"
     }
   },
   {
     "name": "Gravios",
-    "description": "Large wyverns found in Oilwell Basin. They have a developed physique, powerful heat rays, and a host of gases they can emit from their body. Their bony carapaces are famously tough but expose a surprisingly brittle interior once destroyed.",
+    "description": "A brute Wyvern that dwell in volcanic regions. Its thick armor-like skin is highly resistant to attacks, and it can release explosive gases from its mouth. Gravios is known for its immense strength and durability.",
     "species": "Brute Wyvern",
     "elements": ["Fire"],
     "ailments": ["Fireblight", "Stun"],
     "weaknesses": ["Water", "Dragon"],
     "resistances": ["Fire", "Ice"],
     "height": {
-      "min": 1869.51,
-      "max": 2625.72,
-      "formatted": "1,869.51 ~ 2,625.72"
+      "min": 342.56,
+      "max": 456.78,
+      "formatted": "342,56 ~ 456,78"
     }
   },
   {
     "name": "Guardian Arkveld",
-    "description": "An artificial species created by an ancient civilization and imbued with the power of a monster called Arkveld. It cannot reproduce and does not require food, relying instead on Wyvern Milk for energy. In addition to absorbing and discharging energy the way other Guardians do, Guardian Arkveld can also absorb elemental energy through the chainblades on its wings and use it for sustenance.",
+    "description": "An artificial monster species created by an ancient civilization and imbued with Arkveld's power. Guardian Arkveld cannot reproduce and does not require food, relying instead on Wyvern Milk for energy. It possesses enhanced strength and durability compared to its natural counterpart.",
     "species": "Bird Wyvern",
     "elements": [null],
     "ailments": [null],
     "weaknesses": ["Thunder", "Ice"],
     "resistances": ["Fire"],
     "height": {
-      "min": 1666.54,
-      "max": 1666.54,
-      "formatted": "1,666.54 - 1,666.54"
+      "min": 164.58,
+      "max": 230.41,
+      "formatted": "164,58 ~ 230,41"
     }
   },
   {
     "name": "Guardian Doshaguma",
-    "description": "An artificial monster species created by an ancient civilization and imbued with Doshaguma's power. Guardian Doshaguma, cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. While anything but agile, they're tough enough to charge right through attacks without flinching, making them extremely dangerous.",
+    "description": "An artificial monster species created by an ancient civilization and imbued with Doshaguma's power. Guardian Doshaguma cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. While anything but agile, they're tough enough to charge right through attacks without flinching.",
     "species": "Construct",
     "elements": [null],
     "ailments": ["Defense Down", "Weak Roar", "Minor Tremor"],
@@ -164,7 +164,7 @@
     "height": {
       "min": 1237.51,
       "max": 1724.18,
-      "formatted": "1,237.51 - 1,724.18"
+      "formatted": "1,237.51 ~ 1,724.18"
     }
   },
   {
@@ -178,7 +178,7 @@
     "height": {
       "min": 1235.98,
       "max": 1735.93,
-      "formatted": "1,235.98 - 1,735.93"
+      "formatted": "1.235,98 ~ 1.735,93"
     }
   },
   {
@@ -192,7 +192,7 @@
     "height": {
       "min": 1465.34,
       "max": 2058.07,
-      "formatted": "1,465.34 - 2,058.07"
+      "formatted": "1.465,34 ~ 2.058,07"
     }
   },
   {
@@ -206,7 +206,7 @@
     "height": {
       "min": 1516.75,
       "max": 2130.27,
-      "formatted": "1,516.75 - 2,130.27"
+      "formatted": "1.516,75 ~ 2.130,27"
     }
   },
   {
@@ -220,7 +220,7 @@
     "height": {
       "min": 858.08,
       "max": 1205.17,
-      "formatted": "858.08 - 1,205.17"
+      "formatted": "858.08 ~ 1.205,17"
     }
   },
   {
@@ -234,7 +234,7 @@
     "height": {
       "min": 1476.81,
       "max": 1908.24,
-      "formatted": "1,476.81 - 1,908.24"
+      "formatted": "1.476,81 ~ ♕1.908,24"
     }
   },
   {
@@ -248,7 +248,7 @@
     "height": {
       "min": 4560.89,
       "max": 4560.89,
-      "formatted": "4,560.89 - 4,560.89"
+      "formatted": "4.560,89 ~ 4.560,89"
     }
   },
   {
@@ -260,9 +260,9 @@
     "weaknesses": ["Fire"],
     "resistances": ["Thunder", "Water"],
     "height": {
-      "min": 2231.2,
+      "min": 2231.20,
       "max": 2915.77,
-      "formatted": "2,231.20 - 2,915.77"
+      "formatted": "2231.20 ~ 2915.77"
     }
   },
   {
@@ -276,12 +276,12 @@
     "height": {
       "min": 621.88,
       "max": 873.43,
-      "formatted": "621.88 - 873.43"
+      "formatted": "621.88 ~ 873.43"
     }
   },
   {
     "name": "Mizutsune",
-    "description": "Specially evolved leviathans with sleek, lithe bodies, Mizutsune can secrete a peculiar foam that covers their foes in immobilizing bubbles. Once their prey's movement is impaired, they'll close in with spry, dance-like movements.",
+    "description": "Specially evolved leviathans with sleek, lithe bodies, Mizutsune can secrete a peculiar foam that covers their foes in immobilizing bubbles. Once their prey's movement is impaired, they'll close in with spry, dance-like movements. Light blue bubbles reflecting the moonlight, fragile and ephemeral like flowers blooming at night.",
     "species": "Leviathan",
     "elements": ["Water"],
     "ailments": ["Waterblight", "Bubbleblight"],
@@ -290,7 +290,7 @@
     "height": {
       "min": 1711.85,
       "max": 2385.05,
-      "formatted": "1,711.85 ~ 2,385.05"
+      "formatted": "1711.85 ~ 2385.05"
     }
   },
   {
@@ -304,7 +304,7 @@
     "height": {
       "min": 651.44,
       "max": 914.95,
-      "formatted": "651.44 - 914.95"
+      "formatted": "651,44 ~ 914,95"
     }
   },
   {
@@ -330,7 +330,7 @@
     "weaknesses": ["Thunder", "Dragon"],
     "resistances": [null],
     "height": {
-      "min": null,
+      "min": 1181.85,
       "max": 1181.85,
       "formatted": "TBC ~ 1,181.85"
     }
@@ -346,12 +346,12 @@
     "height": {
       "min": 1107.30,
       "max": 1555.20,
-      "formatted": "1,107.30 - 1,555.20"
+      "formatted": "1.107,30 ~ 1.555,20"
     }
   },
   {
     "name": "Rathalos",
-    "description": "Fearsome male wyverns known as the 'King of the Skies.' Alongside the Rathian, they stake out a wide territory around their nests, and it is the male's role to watch from above. Armed with powerful poisonous claws and fiery breath, Rathalos use their aerial prowess to descend to invaders.",
+    "description": "Fearsome male wyverns known as the King of the Skies. Alongside the Rathian, they stake out a wide territory around their nests, and it is the male's role to watch from above. Armed with powerful poisonous claws and fiery breath, Rathalos use their aerial prowess to descend to invaders.",
     "species": "Flying Wyvern",
     "elements": ["Fire"],
     "ailments": ["Fireblight", "Poison"],
@@ -360,12 +360,12 @@
     "height": {
       "min": 1516.75,
       "max": 2130.27,
-      "formatted": "1,516.75 - 2,130.27"
+      "formatted": "1,516.75 ~ 2,130.27"
     }
   },
   {
     "name": "Rathian",
-    "description": "Fire-breathing female wyverns known as the 'Queens of the Land.' Their powerful legs and venomous tails make them efficient ground hunters. At times, Rathian and Rathalos can be sighted hunting as a couple. After laying eggs, Rathian are extremely watchful of their nests. Proceed with extra caution, as mother will move swiftly to protect her young.",
+    "description": "Fire-breathing female wyverns known as the Queens of the Land. Their powerful legs and venomous tails make them efficient ground hunters. At times, Rathian and Rathalos can be sighted hunting as a couple. After laying eggs, Rathian are extremely watchful of their nests.",
     "species": "Flying Wyvern",
     "elements": ["Fire"],
     "ailments": ["Fireblight", "Poison"],
@@ -374,12 +374,12 @@
     "height": {
       "min": 1543.84,
       "max": 2192.96,
-      "formatted": "1,543.84 - 2,192.96"
+      "formatted": "1,543.84 ~ 2,192.96"
     }
   },
   {
     "name": "Rey Dau",
-    "description": "The flying wyvern that reigns supreme over the Windward Plains' ecosystem. It has adapted to the Sandtide - when it most frequently appears - and is able to store, amplify, and discharge the storm's heavy lightning to lethal effect. Rey Dau is highly territorial and will attack any and all intruders on sight. The fulgurite against its carapace emits a sound that puts every monster in the region on guard.",
+    "description": "The flying wyvern that reigns supreme over the Windward Plains' ecosystem. It has adapted to the Sandtide - when it most frequently appears - and is able to store, amplify, and discharge the storm's heavy lightning to lethal effect. Rey Dau is highly territorial and will attack any and all intruders on sight.",
     "species": "Flying Wyvern",
     "elements": ["Thunder"],
     "ailments": ["Thunderblight"],
@@ -388,7 +388,7 @@
     "height": {
       "min": 1851.37,
       "max": 2571.35,
-      "formatted": "1,851.37 - 2,571.35"
+      "formatted": "1.851,37 ~ 2.571,35"
     }
   },
   {
@@ -402,7 +402,7 @@
     "height": {
       "min": 1066.05,
       "max": 1497.27,
-      "formatted": "1,066.05 - 1,497.27"
+      "formatted": "1.066,05 ~ 1.497,27"
     }
   },
   {
@@ -416,7 +416,7 @@
     "height": {
       "min": 1522.63,
       "max": 2162.83,
-      "formatted": "1,522.63 - 2,162.83"
+      "formatted": "1522.63 ~ 2162.83"
     }
   },
   {
@@ -430,7 +430,7 @@
     "height": {
       "min": 2651.57,
       "max": 3426.18,
-      "formatted": "2,651.57 - 3,426.18"
+      "formatted": "2.651,57 ~ 3.426,18"
     }
   },
   {
@@ -442,9 +442,9 @@
     "weaknesses": ["Ice"],
     "resistances": ["Dragon"],
     "height": {
-      "min": 1242.70,
+      "min": 1242.7,
       "max": 1745.37,
-      "formatted": "1,242.70 - 1,745.37"
+      "formatted": "1.242,70 ~ 1.745,37"
     }
   },
   {
@@ -458,7 +458,7 @@
     "height": {
       "min": 885.14,
       "max": 1243.18,
-      "formatted": "885.14 - 1,243.18"
+      "formatted": "885.14 ~ 1.243,18"
     }
   },
   {
@@ -472,7 +472,7 @@
     "height": {
       "min": 4623.59,
       "max": 4623.59,
-      "formatted": "4,623.59 - 4,623.59"
+      "formatted": "4,623.59 ~ 4,623.59"
     }
   }
 ]

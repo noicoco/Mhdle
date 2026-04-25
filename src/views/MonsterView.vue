@@ -9,8 +9,11 @@ import {inject, ref} from "vue";
 
 const monsterData = inject("monsterData");
 const selectedMonster = inject("selectedMonster");
+let guesses = ref([]);
 
 function selectionHandler(selection) {
+  guesses.value.push(selection);
+
   if (selection === selectedMonster) {
     alert("yay!");
   }
@@ -26,8 +29,11 @@ function selectionHandler(selection) {
     <h1>Monster</h1>
   </div>
 
+
   <div class="container bg">
+    <h2>Guess the monster</h2>
     <search-box :data="monsterData" :category="'monster'" @selected="selectionHandler"></search-box>
+    <wordle-table :guesses="guesses" :columns="Object.keys(monsterData[0])" :category="'monster'"></wordle-table>
   </div>
 
 </template>
