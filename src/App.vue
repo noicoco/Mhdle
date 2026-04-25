@@ -16,7 +16,6 @@ function getTodayRandom(data) {
   return data[math];
 }
 
-
 provide('monsterData', monsterData);
 provide('skillData', skillData);
 
@@ -26,6 +25,7 @@ const skill = ref(getTodayRandom(skillData))
 provide('selectedMonster', monster)
 provide('selectedSkill', skill)
 // FIXME: Possible issues with spacing with the header and main content, we'll see
+// FIXME: Issue above can be resolved by changing base.css line spacing.
 </script>
 
 <template>
