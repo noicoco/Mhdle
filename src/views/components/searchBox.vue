@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from 'vue';
+import {ref, computed} from 'vue';
 
 const emit = defineEmits(['selected']);
 const props = defineProps({data: Object, category: String});
@@ -30,30 +30,31 @@ const selectionHandler = (selection) => {
 </script>
 
 <template>
-    <div class="searchbox">
-      <input
-          v-model="searchQuery"
-          type="text"
-          :placeholder="`Search ${category}s...`"
-          @focus="showResults = true"
-          @keyup.esc="showResults = false"
-          class="search-input"
-      />
-      <ul v-if="showResults" class="results-list">
-        <li
-            v-for="entry in filteredEntries"
-            :key="entry.id"
-            @click="selectionHandler(entry)"
-            class="result-item"
-        >
-          <img :src="'../../../assets/images/' + category + '/' + formatImageName(entry.icon) + '.png'" class="icon" alt="" draggable="false"/>
-          <span>{{ entry.name }}</span>
-        </li>
-        <li v-if="filteredEntries.length === 0" class="no-results">
-          No {{category}}s found.
-        </li>
-      </ul>
-    </div>
+  <div class="searchbox">
+    <input
+        v-model="searchQuery"
+        type="text"
+        :placeholder="`Search ${category}s...`"
+        @focus="showResults = true"
+        @keyup.esc="showResults = false"
+        class="search-input"
+    />
+    <ul v-if="showResults" class="results-list">
+      <li
+          v-for="entry in filteredEntries"
+          :key="entry.id"
+          @click="selectionHandler(entry)"
+          class="result-item"
+      >
+        <img :src="'../../../assets/images/' + category + '/' + formatImageName(entry.icon) + '.png'" class="icon"
+             alt="" draggable="false"/>
+        <span>{{ entry.name }}</span>
+      </li>
+      <li v-if="filteredEntries.length === 0" class="no-results">
+        No {{ category }}s found.
+      </li>
+    </ul>
+  </div>
 </template>
 
 <style scoped>
@@ -73,7 +74,7 @@ const selectionHandler = (selection) => {
   padding: 0 15px;
   font-size: 1em;
   font-weight: bolder;
-  font-family: "SourceHanSans",ui-sans-serif;
+  font-family: "SourceHanSans", ui-sans-serif;
   outline: none;
 }
 
@@ -94,6 +95,7 @@ const selectionHandler = (selection) => {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .results-list::-webkit-scrollbar {
   display: none;
 }

@@ -1,11 +1,27 @@
 <script setup>
 // TODO: make table column names dynamic to what data in guesses is given, ignore description for monster guessing, add ignore fields?
+import {ref} from "vue";
+import monsterData from "../../../assets/data/monster_data.json";
+
 const props = defineProps({columns: Array, guesses: Array, category: String});
 // 1st Array : column names
 // 2nd Array : a list of the selected guesses from the searchBox, handled by view
 
+
+const monster = ref(getTodayRandom(monsterData));
 function formatImageName(name) {
   return name.toString().trim().toLowerCase().replaceAll(' ', '-');
+}
+
+function getTodayRandom(data) {
+  let date = new Date();
+  let year = date.getFullYear();
+  let month = date.getMonth() + 1;
+  let day = date.getUTCDate();
+
+  let math = (year+ month + day) % data.length;
+
+  return data[math];
 }
 
 function formatField(field) {
@@ -20,35 +36,51 @@ function formatField(field) {
   return field
       .replaceAll(',', ', ');
 }
+
+const getStatus = (guessVal, targetVal) => {
+  if (guessVal === targetVal) return 'correct';
+
+  if (Array.isArray(guessVal) && Array.isArray(targetVal)) {
+    const matches = guessVal.filter(item => targetVal.includes(item));
+
+    if (matches.length === targetVal.length && guessVal.length === targetVal.length) {
+      return 'correct';
+    }
+    return matches.length > 0 ? 'partial' : 'incorrect';
+  }
+
+  return 'incorrect';
+};
 </script>
 
 <template>
-<table>
-  <thead>
+  <table>
+    <thead>
     <tr>
       <th v-for="colName in props.columns" :key="colName" scope="col">
-        {{colName}}
+        {{ colName }}
       </th>
     </tr>
-  </thead>
-  <tbody>
+    </thead>
+    <tbody>
     <tr v-for="guess in props.guesses" :key="guess.id">
       <td v-if="category !== ''">
-        <img :src="'../../../assets/images/' + category + '/' + formatImageName(guess.name) + '.png'" class="icon" alt="" draggable="false"/>
+        <img :src="'../../../assets/images/' + category + '/' + formatImageName(guess.name) + '.png'" class="icon"
+             alt="" draggable="false"/>
       </td>
       <td v-else></td>
 
-      <td>{{guess.name}}</td>
-      <td class="description">{{guess.description.split('.')[0]+'.'}}</td>
-      <td>{{guess.species}}</td>
-      <td>{{formatField(guess.elements)}}</td>
-      <td class="correct">{{formatField(guess.ailments)}}</td>
-      <td class="partial">{{formatField(guess.weaknesses)}}</td>
-      <td class="incorrect">{{formatField(guess.resistances)}}</td>
-      <td>{{guess.height.formatted}}</td>
+      <td :class="getStatus(guess.name, monster.name)">{{ guess.name }}</td>
+      <td class="description" :class="getStatus(guess.description, monster.description)">{{ guess.description.split('.')[0] + '.' }}</td>
+      <td :class="getStatus(guess.species, monster.species)">{{ guess.species }}</td>
+      <td :class="getStatus(guess.elements, monster.elements)">{{ formatField(guess.elements) }}</td>
+      <td :class="getStatus(guess.ailments, monster.ailments)">{{ formatField(guess.ailments) }}</td>
+      <td :class="getStatus(guess.weaknesses, monster.weaknesses)">{{ formatField(guess.weaknesses) }}</td>
+      <td :class="getStatus(guess.resistances, monster.resistances)">{{ formatField(guess.resistances) }}</td>
+      <td>{{ guess.height.formatted }}</td>
     </tr>
-  </tbody>
-</table>
+    </tbody>
+  </table>
 </template>
 
 <style scoped>
@@ -76,13 +108,13 @@ th {
 }
 
 thead th, td {
-  border-right:  2px solid var(--border-metal);
+  border-right: 2px solid var(--border-metal);
   padding: 8px;
 }
 
 tbody th, td {
-  border-top:  2px solid var(--border-metal);
-  border-right:  2px solid var(--border-metal);
+  border-top: 2px solid var(--border-metal);
+  border-right: 2px solid var(--border-metal);
   padding: 8px;
 }
 
