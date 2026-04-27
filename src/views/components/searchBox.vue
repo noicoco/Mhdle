@@ -34,7 +34,7 @@ const selectionHandler = (selection) => {
       <input
           v-model="searchQuery"
           type="text"
-          placeholder="Search monsters..."
+          :placeholder="`Search ${category}s...`"
           @focus="showResults = true"
           @keyup.esc="showResults = false"
           class="search-input"
@@ -46,11 +46,11 @@ const selectionHandler = (selection) => {
             @click="selectionHandler(entry)"
             class="result-item"
         >
-          <img :src="'../../../assets/images/' + category + '/' + formatImageName(entry.name) + '.png'" class="icon" alt="" draggable="false"/>
+          <img :src="'../../../assets/images/' + category + '/' + formatImageName(entry.icon) + '.png'" class="icon" alt="" draggable="false"/>
           <span>{{ entry.name }}</span>
         </li>
         <li v-if="filteredEntries.length === 0" class="no-results">
-          No monsters found
+          No {{category}}s found.
         </li>
       </ul>
     </div>

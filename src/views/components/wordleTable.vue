@@ -9,10 +9,14 @@ function formatImageName(name) {
 }
 
 function formatField(field) {
-  field = field.toString();
+  if (!field || typeof field === 'undefined') {
+    return '';
+  }
   if (field === null || field === '') {
     field = 'None';
   }
+  field = field.toString();
+
   return field
       .replaceAll(',', ', ');
 }
@@ -22,7 +26,6 @@ function formatField(field) {
 <table>
   <thead>
     <tr>
-      <th scope="col">Icon</th>
       <th v-for="colName in props.columns" :key="colName" scope="col">
         {{colName}}
       </th>
