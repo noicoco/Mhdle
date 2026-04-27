@@ -8,7 +8,8 @@
       "Fire"
     ],
     "ailments": [
-      "Fireblight"
+      "Fireblight",
+      "Blastblight"
     ],
     "weaknesses": [
       "Water",
@@ -75,10 +76,11 @@
     "description": "Large, white fanged beasts that rule over other Blango, attacking intruders as a pack. Its muscularity and mobility allows it to strike swiftly, even on fresh snow, and pounce from long distances—so hunters with long-range weapons still need to stay on guard. Large tusks are the mark of a powerful leader.",
     "species": "Fanged Beast",
     "elements": [
-      null
+      "Ice"
     ],
     "ailments": [
-      null
+      "Iceblight",
+      "Snowman"
     ],
     "weaknesses": [
       "Fire",
@@ -127,11 +129,15 @@
     ],
     "ailments": [
       "Stink",
-      "Fatigue"
+      "Soiled",
+      "Blast",
+      "Poison",
+      "Sleep",
+      "Paralysis"
     ],
     "weaknesses": [
-      "Thunder",
-      "Ice"
+      "Ice",
+      "Fire"
     ],
     "resistances": [
       "Water"
@@ -176,14 +182,16 @@
     ],
     "ailments": [
       "Fireblight",
-      "Blastblight"
+      "Tarred"
     ],
     "weaknesses": [
-      "Water",
-      "Ice"
+      "DragonBlight",
+      "Fire"
     ],
     "resistances": [
-      "Fire"
+      "Thunder",
+      "Water",
+      "Ice"
     ],
     "height": {
       "min": null,
@@ -195,7 +203,7 @@
     "icon": "gore-magala",
     "name": "Gore Magala",
     "description": "Monsters that drape themselves in their great wings, like a black overcoat. They have no eye sensory organs, so instead they use a scattering of fine scales from their wings to locate prey. When their sensory capacity increases, antennae appear on their heads and they unfurl their wings, entering the aggressive Frenzy State. Their black scales can Frenzy other creatures as well, making them fearsome adversaries.",
-    "species": "Young Elder Dragon",
+    "species": "Semi Elder Dragon",
     "elements": [
       null
     ],
@@ -203,8 +211,9 @@
       "Frenzy"
     ],
     "weaknesses": [
+      "Fire",
       "Thunder",
-      "Ice"
+      "Dragon"
     ],
     "resistances": [
       "Fire"
@@ -219,13 +228,15 @@
     "icon": "gravios",
     "name": "Gravios",
     "description": "Large wyverns found in Oilwell Basin. They have a developed physique, powerful heat rays, and a host of gases they can emit from their body. Their bony carapaces are famously tough but expose a surprisingly brittle interior once destroyed.",
-    "species": "Brute Wyvern",
+    "species": "Flying Wyvern",
     "elements": [
       "Fire"
     ],
     "ailments": [
       "Fireblight",
-      "Stun"
+      "Stun",
+      "Sleep",
+      "Poison"
     ],
     "weaknesses": [
       "Water",
@@ -245,19 +256,18 @@
     "icon": "guardian-arkveld",
     "name": "Guardian Arkveld",
     "description": "An artificial species created by an ancient civilization and imbued with the power of a monster called Arkveld. It cannot reproduce and does not require food, relying instead on Wyvern Milk for energy. In addition to absorbing and discharging energy the way other Guardians do, Guardian Arkveld can also absorb elemental energy through the chainblades on its wings and use it for sustenance.",
-    "species": "Bird Wyvern",
+    "species": "Construct",
     "elements": [
-      null
+      "Dragon"
     ],
     "ailments": [
-      null
+      "Dragonblight"
     ],
     "weaknesses": [
-      "Thunder",
-      "Ice"
+      "Dragon"
     ],
     "resistances": [
-      "Fire"
+      null
     ],
     "height": {
       "min": 1666.54,
@@ -274,9 +284,7 @@
       null
     ],
     "ailments": [
-      "Defense Down",
-      "Weak Roar",
-      "Minor Tremor"
+      "Defense Down"
     ],
     "weaknesses": [
       "Fire",
@@ -376,7 +384,8 @@
       null
     ],
     "ailments": [
-      "Poison"
+      "Poison",
+      "Stun"
     ],
     "weaknesses": [
       "Fire"
@@ -448,11 +457,11 @@
       "Water"
     ],
     "ailments": [
-      "Thunderblight",
-      "Waterblight"
+      "Thunderblight"
     ],
     "weaknesses": [
-      "Fire"
+      "Fire",
+      "Dragon"
     ],
     "resistances": [
       "Thunder",
@@ -502,8 +511,7 @@
     ],
     "weaknesses": [
       "Thunder",
-      "Dragon",
-      "Ice"
+      "Dragon"
     ],
     "resistances": [
       "Water",
@@ -529,7 +537,8 @@
       "Webbed"
     ],
     "weaknesses": [
-      "Fire"
+      "Fire",
+      "Thunder"
     ],
     "resistances": [
       "Water",
@@ -568,12 +577,15 @@
     "icon": "omega-planetes",
     "name": "Omega Planetes",
     "description": "An interdimensional weapon from a forgotten civilization, Omega arrives in the Forbidden Lands in pursuit of a singular goal: to battle and evolve. This machine of immense power adapts its combat protocols, presenting a threat unlike any creature of flesh and blood.",
-    "species": "Machine",
+    "species": "???",
     "elements": [
-      "Fire"
+      "Fire",
+      "Ice (Savage)"
     ],
     "ailments": [
-      "Fireblight"
+      "Fireblight",
+      "HP Penalty",
+      "Iceblight (Savage)"
     ],
     "weaknesses": [
       "Thunder",
@@ -624,6 +636,7 @@
       "Poison"
     ],
     "weaknesses": [
+      "Thunder",
       "Dragon"
     ],
     "resistances": [
@@ -648,6 +661,7 @@
       "Poison"
     ],
     "weaknesses": [
+      "Thunder",
       "Dragon"
     ],
     "resistances": [
@@ -671,7 +685,8 @@
       "Thunderblight"
     ],
     "weaknesses": [
-      "Ice"
+      "Ice",
+      "Water"
     ],
     "resistances": [
       "Thunder"
@@ -760,7 +775,7 @@
     "description": "Cephalopod predators whose prey include Guardian monsters. The mucus secreted from their tentacles hardens quickly into sharp edges that resemble blades or spears, which is why some call Xu Wu the 'Piercing Assassin.' The sizable mouth hidden on their underside allows them to devour even rather large prey.",
     "species": "Cephalopod",
     "elements": [
-      "Dragon"
+      null
     ],
     "ailments": [
       null
@@ -786,10 +801,10 @@
       "Fire"
     ],
     "ailments": [
-      null
+      "Fireblight"
     ],
     "weaknesses": [
-      "Thunder",
+      "Water",
       "Ice"
     ],
     "resistances": [

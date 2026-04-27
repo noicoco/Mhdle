@@ -46,7 +46,7 @@ const selectionHandler = (selection) => {
             @click="selectionHandler(entry)"
             class="result-item"
         >
-          <img :src="'../../../assets/images/' + category + '/' + formatImageName(entry.name) + '.png'" class="icon" alt="" draggable="false"/>
+          <img :src="'../../../assets/images/' + category + '/' + formatImageName(entry.name) + '.png'" class="icon" alt="" draggable="false" />
           <span>{{ entry.name }}</span>
         </li>
         <li v-if="filteredEntries.length === 0" class="no-results">
@@ -129,3 +129,12 @@ const selectionHandler = (selection) => {
   color: grey;
 }
 </style>
+
+<script>
+let searchInput = document.querySelector('.search-input');
+searchInput.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    searchInput.textContent = "";
+  }
+})
+</script>
