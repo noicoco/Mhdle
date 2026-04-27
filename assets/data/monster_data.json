@@ -2,7 +2,7 @@
   {
     "icon": "ajarakan",
     "name": "Ajarakan",
-    "description": "Fanged beasts characteristic by their highly developed carapaces, Ajarakan wrap themselves in molten metal that they rub together to heat up and create explosions. Presumably due to the friction of the metal, they can reach high enough temperatures to melt even the ground or bullets. They can also use their strong limbs to grip onto the ceiling and move around freely, so a hunter must watch out from every angle, including above.",
+    "description": "Characteristic by their highly developed carapaces, Ajarakan wrap themselves in molten metal that they rub together to heat up and create explosions. Presumably due to the friction of the metal, they can reach high enough temperatures to melt even the ground or bullets. They can also use their strong limbs to grip onto the ceiling and move around freely, so a hunter must watch out from every angle, including above.",
     "species": "Fanged Beast",
     "elements": [
       "Fire"
@@ -80,14 +80,15 @@
     ],
     "ailments": [
       "Iceblight",
-      "Snowman"
+      "Frostblight"
     ],
     "weaknesses": [
       "Fire",
       "Thunder"
     ],
     "resistances": [
-      "Ice"
+      "Ice",
+      "Dragon"
     ],
     "height": {
       "min": 809.43,
@@ -125,14 +126,13 @@
     "description": "Large fanged beasts with pink fur and a distinct crest, which the males sculpt with plant oils and juices as a sign of virility. Congalala are common in temperate forests and are therefore well researched. They're big eaters and love mushrooms, which they absorb and then exhale as a variety of potent breaths that inflict poison, blast, paralysis, and more.",
     "species": "Fanged Beast",
     "elements": [
-      null
+      "Blast",
+      "Poison"
     ],
     "ailments": [
-      "Stink",
-      "Soiled",
-      "Blast",
+      "Stench",
+      "Blastblight",
       "Poison",
-      "Sleep",
       "Paralysis"
     ],
     "weaknesses": [
@@ -140,7 +140,7 @@
       "Fire"
     ],
     "resistances": [
-      "Water"
+      null
     ],
     "height": {
       "min": 946.03,
@@ -164,7 +164,7 @@
       "Thunder"
     ],
     "resistances": [
-      "Water"
+      null
     ],
     "height": {
       "min": 1237.51,
@@ -203,7 +203,7 @@
     "icon": "gore-magala",
     "name": "Gore Magala",
     "description": "Monsters that drape themselves in their great wings, like a black overcoat. They have no eye sensory organs, so instead they use a scattering of fine scales from their wings to locate prey. When their sensory capacity increases, antennae appear on their heads and they unfurl their wings, entering the aggressive Frenzy State. Their black scales can Frenzy other creatures as well, making them fearsome adversaries.",
-    "species": "Semi Elder Dragon",
+    "species": "Demi Elder Dragon",
     "elements": [
       null
     ],
@@ -216,7 +216,7 @@
       "Dragon"
     ],
     "resistances": [
-      "Fire"
+      "Water"
     ],
     "height": {
       "min": 1553.99,
@@ -234,17 +234,16 @@
     ],
     "ailments": [
       "Fireblight",
-      "Stun",
       "Sleep",
       "Poison"
     ],
     "weaknesses": [
       "Water",
-      "Dragon"
+      "Dragon",
+      "Ice"
     ],
     "resistances": [
-      "Fire",
-      "Ice"
+      "Fire"
     ],
     "height": {
       "min": 1869.51,
@@ -385,13 +384,13 @@
     ],
     "ailments": [
       "Poison",
-      "Stun"
+      "Flash"
     ],
     "weaknesses": [
       "Fire"
     ],
     "resistances": [
-      null
+      "Thunder"
     ],
     "height": {
       "min": 858.08,
@@ -507,11 +506,13 @@
     ],
     "ailments": [
       "Waterblight",
+      "Fireblight",
       "Bubbleblight"
     ],
     "weaknesses": [
       "Thunder",
-      "Dragon"
+      "Dragon",
+      "Ice"
     ],
     "resistances": [
       "Water",
@@ -577,15 +578,15 @@
     "icon": "omega-planetes",
     "name": "Omega Planetes",
     "description": "An interdimensional weapon from a forgotten civilization, Omega arrives in the Forbidden Lands in pursuit of a singular goal: to battle and evolve. This machine of immense power adapts its combat protocols, presenting a threat unlike any creature of flesh and blood.",
-    "species": "???",
+    "species": "Machine",
     "elements": [
       "Fire",
-      "Ice (Savage)"
+      "Ice"
     ],
     "ailments": [
       "Fireblight",
       "HP Penalty",
-      "Iceblight (Savage)"
+      "Iceblight"
     ],
     "weaknesses": [
       "Thunder",
@@ -595,9 +596,9 @@
       null
     ],
     "height": {
-      "min": null,
+      "min": 1181.85,
       "max": 1181.85,
-      "formatted": "TBC ~ 1,181.85"
+      "formatted": "1,181.85"
     }
   },
   {
@@ -775,7 +776,7 @@
     "description": "Cephalopod predators whose prey include Guardian monsters. The mucus secreted from their tentacles hardens quickly into sharp edges that resemble blades or spears, which is why some call Xu Wu the 'Piercing Assassin.' The sizable mouth hidden on their underside allows them to devour even rather large prey.",
     "species": "Cephalopod",
     "elements": [
-      null
+      "Dragon"
     ],
     "ailments": [
       null
