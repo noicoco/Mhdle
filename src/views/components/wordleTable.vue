@@ -13,14 +13,6 @@ const columns = props.columns.filter(x => !props.ignoredColumns.includes(x));
 function formatField(guess, field) {
   let formatted;
   switch (field) {
-      // String
-    case 'name':
-    case 'species':
-    case 'type':
-    case 'levels':
-      formatted = guess[field].toString();
-      break;
-
       // Long string
     case 'description':
       formatted = guess[field].toString().split('.')[0] + '.';
@@ -40,6 +32,10 @@ function formatField(guess, field) {
       // Object
     case 'height':
       formatted = guess[field]['formatted'];
+      break;
+
+    default:
+      formatted = guess[field].toString();
       break;
   }
   return formatted;

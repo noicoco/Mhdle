@@ -1,10 +1,8 @@
 <script setup>
+// TODO : fix icons for certain skills, especially Group and Armor Set skills
 import wordleTable from "@/views/components/wordleTable.vue";
 import SearchBox from "@/views/components/searchBox.vue";
 import {inject, ref} from "vue";
-
-// const bgi = ref('bg')
-
 const skillData = inject("skillData");
 const selectedSkill = inject("selectedSkill");
 let guesses = ref([]);
