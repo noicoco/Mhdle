@@ -1,9 +1,6 @@
 <script setup>
 // TODO : add hints as to what category means what
-import {inject, ref} from "vue";
-import monsterData from "../../../assets/data/monster_data.json";
-
-const props = defineProps({columns: Array, guesses: Array, category: String, ignoredColumns: Array, selected: Object});
+const props = defineProps({columns: Array, guesses: Array, category: String, ignoredColumns: Array, selected: Object}); // Selected is the selectedMonster from App.vue rng
 // 1st Array : column names
 // 2nd Array : a list of the selected guesses from the searchBox, handled by view
 const columns = props.columns.filter(x => !props.ignoredColumns.includes(x));
