@@ -31,7 +31,7 @@ function selectionHandler(selection) {
   <div class="container bg">
     <h2>Guess the monster</h2>
     <search-box :data="monsterData" :category="'monster'" @selected="selectionHandler"></search-box>
-    <wordle-table :guesses="guesses" :columns="Object.keys(monsterData[0])" :category="'monster'" :ignored-columns="['description']"></wordle-table>
+    <wordle-table :guesses="guesses" :columns="Object.keys(monsterData[0])" :category="'monster'" :ignored-columns="['description']" :selected="selectedMonster"></wordle-table>
   </div>
 </template>
 

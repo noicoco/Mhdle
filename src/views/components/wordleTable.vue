@@ -1,22 +1,23 @@
 <script setup>
-// TODO: make table column names dynamic to what data in guesses is given, ignore description for monster guessing, add ignore fields?
+// TODO : add hints as to what category means what
 import {inject, ref} from "vue";
 import monsterData from "../../../assets/data/monster_data.json";
 
-const props = defineProps({columns: Array, guesses: Array, category: String, ignoredColumns: Array});
+const props = defineProps({columns: Array, guesses: Array, category: String, ignoredColumns: Array, selected: Object});
 // 1st Array : column names
 // 2nd Array : a list of the selected guesses from the searchBox, handled by view
 const columns = props.columns.filter(x => !props.ignoredColumns.includes(x));
 
-const selectedMonster = inject("selectedMonster");
 
-// Works.
+// Works. Very Hardcoded. But it works.
 function formatField(guess, field) {
   let formatted;
   switch (field) {
       // String
     case 'name':
     case 'species':
+    case 'type':
+    case 'levels':
       formatted = guess[field].toString();
       break;
 
@@ -47,42 +48,44 @@ function formatField(guess, field) {
 
 function getStatus(guess, field) {
   let guessVal = guess[field];
-  let targetVal = selectedMonster[field];
+  let targetVal = props.selected[field];
 
   if (guessVal === targetVal) return 'correct';
 
   // 1. Handle Height/Range Objects
   if (guessVal && typeof guessVal === 'object' && 'min' in guessVal) {
-    // Check for exact match
     const isExact = guessVal.min === targetVal.min && guessVal.max === targetVal.max;
     if (isExact) return 'correct';
 
-    // Determine direction using midpoints
     const guessMid = (guessVal.min + guessVal.max) / 2;
     const targetMid = (targetVal.min + targetVal.max) / 2;
     const direction = targetMid > guessMid ? 'higher' : 'lower';
-
-    // Check for overlap
     const hasOverlap = guessVal.min <= targetVal.max && guessVal.max >= targetVal.min;
 
-    // Return combined status: "partial higher", "incorrect lower", etc.
     const baseStatus = hasOverlap ? 'partial' : 'incorrect';
     return `${baseStatus} ${direction}`;
   }
 
-  // 2. Handle Partial String Matches
+  // 2. Handle Levels ONLY (Matches your screenshot's red background)
+  if (field === 'levels') {
+    // If it made it past the exact match check at the top, it's incorrect.
+    // Figure out if the target is higher or lower than the guess.
+    const direction = targetVal > guessVal ? 'higher' : 'lower';
+
+    // Returning 'incorrect' instead of 'partial' so it stays red like your screenshot
+    return `incorrect ${direction}`;
+  }
+
+  // 3. Handle Partial String Matches
   if (typeof guessVal === 'string' && typeof targetVal === 'string') {
     const g = guessVal.toLowerCase();
     const t = targetVal.toLowerCase();
 
-    // Exact match (already handled by top check, but good for safety)
     if (g === t) return 'correct';
 
-    // Split into words (e.g., ["brute", "wyvern"])
     const guessWords = g.split(' ');
     const targetWords = t.split(' ');
 
-    // Check if any word from the guess exists in the target
     const hasSharedWord = guessWords.some(word =>
         word.length > 2 && targetWords.includes(word)
     );
@@ -92,8 +95,7 @@ function getStatus(guess, field) {
     }
   }
 
-
-  // 3. Array Comparison
+  // 4. Array Comparison
   if (Array.isArray(guessVal) && Array.isArray(targetVal)) {
     const matches = guessVal.filter(item => targetVal.includes(item));
     if (matches.length === targetVal.length && guessVal.length === targetVal.length) {
