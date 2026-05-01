@@ -16,14 +16,17 @@ function getTodayRandom(data) {
   return data[math];
 }
 
+// Reference for the entire dataset
 provide('monsterData', monsterData);
 provide('skillData', skillData);
 
-const monster = ref(getTodayRandom(monsterData))
-const skill = ref(getTodayRandom(skillData))
+// only used for debugging
+const monster = ref(monsterData[1]);
+const skill = ref(getTodayRandom(skillData));
 
-provide('selectedMonster', monster)
-provide('selectedSkill', skill)
+// App.vue provides injects for all views
+provide('selectedMonster', monsterData[1]);
+provide('selectedSkill', getTodayRandom(skillData));
 // FIXME: Possible issues with spacing with the header and main content, we'll see
 // FIXME: Issue above can be resolved by changing base.css line spacing.
 </script>

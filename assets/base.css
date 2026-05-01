@@ -36,6 +36,11 @@
   font-weight: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
 body {
   min-height: 100vh;
   color: var(--color-text);
