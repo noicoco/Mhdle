@@ -21,11 +21,11 @@ provide('monsterData', monsterData);
 provide('skillData', skillData);
 
 // only used for debugging
-const monster = ref(monsterData[1]);
+const monster = ref(getTodayRandom(monsterData));
 const skill = ref(getTodayRandom(skillData));
 
 // App.vue provides injects for all views
-provide('selectedMonster', monsterData[1]);
+provide('selectedMonster', getTodayRandom(monsterData));
 provide('selectedSkill', getTodayRandom(skillData));
 // FIXME: Possible issues with spacing with the header and main content, we'll see
 // FIXME: Issue above can be resolved by changing base.css line spacing.
