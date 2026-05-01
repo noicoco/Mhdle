@@ -1,5 +1,4 @@
 <script setup>
-import blocki from "@/views/components/bloc.vue";
 import wordleTable from "@/views/components/wordleTable.vue";
 import SearchBox from "@/views/components/searchBox.vue";
 
@@ -14,6 +13,7 @@ let guesses = ref([]);
 function selectionHandler(selection) {
   guesses.value.push(selection);
 
+  // Todo: winscreen !
   if (selection === selectedMonster) {
     alert("yay!");
   }
@@ -21,7 +21,6 @@ function selectionHandler(selection) {
     alert("aw");
   }
 }
-
 </script>
 
 <template>
@@ -29,13 +28,11 @@ function selectionHandler(selection) {
     <h1>Monster</h1>
   </div>
 
-
   <div class="container bg">
     <h2>Guess the monster</h2>
     <search-box :data="monsterData" :category="'monster'" @selected="selectionHandler"></search-box>
     <wordle-table :guesses="guesses" :columns="Object.keys(monsterData[0])" :category="'monster'" :ignored-columns="['description']"></wordle-table>
   </div>
-
 </template>
 
 <style scoped>

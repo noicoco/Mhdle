@@ -2,6 +2,7 @@
 import {RouterLink} from "vue-router";
 import routeButton from "@/views/components/routeButton.vue";
 
+// Todo: add completed icon or something to buttons when category has been won!
 </script>
 
 <template>
